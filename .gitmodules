@@ -1,6 +1,6 @@
 [submodule "Assets/Plugins/DashTween"]
 	path = Assets/Plugins/DashTween
-	url = D:\\WORKSPACE\\Unity\\Personal\\DashTween
+url=https://github.com/pshtif/DashTween.git
 [submodule "Assets/Plugins/Dash"]
 	path = Assets/Plugins/Dash
-	url = D:\\WORKSPACE\\Unity\\Personal\\Dash
+url=https://github.com/pshtif/Dash.git
