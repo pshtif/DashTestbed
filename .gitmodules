@@ -1,3 +1,6 @@
 [submodule "Assets/Plugins/DashTween"]
 	path = Assets/Plugins/DashTween
 	url = D:\\WORKSPACE\\Unity\\Personal\\DashTween
+[submodule "Assets/Plugins/Dash"]
+	path = Assets/Plugins/Dash
+	url = D:\\WORKSPACE\\Unity\\Personal\\Dash
