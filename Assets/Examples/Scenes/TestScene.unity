@@ -254,6 +254,179 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30747615}
   m_CullTransparentMesh: 0
+--- !u!114 &44303687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f992b7b42e86e4193a2e97d9286a3d, type: 3}
+  m_Name: Bound
+  m_EditorClassIdentifier: 
+  _connections: []
+  _serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 44303687}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: <version>k__BackingField
+      Entry: 3
+      Data: 6001
+    - Name: OnOutput
+      Entry: 6
+      Data: 
+    - Name: _variables
+      Entry: 7
+      Data: 0|Dash.DashVariables, DashRuntime
+    - Name: _variables
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Dash.Variable, DashRuntime]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _extractedClipCache
+      Entry: 6
+      Data: 
+    - Name: _nodes
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Dash.NodeBase, DashRuntime]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Dash.InputNode, DashRuntime
+    - Name: _model
+      Entry: 7
+      Data: 4|Dash.InputNodeModel, DashRuntime
+    - Name: id
+      Entry: 1
+      Data: Input1
+    - Name: comment
+      Entry: 6
+      Data: 
+    - Name: groupsMinized
+      Entry: 3
+      Data: 2
+    - Name: inputName
+      Entry: 1
+      Data: Input
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: <ExecutionCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <Category>k__BackingField
+      Entry: 3
+      Data: 6
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 75.25
+    - Name: 
+      Entry: 4
+      Data: 252.25
+    - Name: 
+      Entry: 4
+      Data: 111
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _connections
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[Dash.NodeConnection, DashRuntime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <ParentGraph>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: <Controller>k__BackingField
+      Entry: 6
+      Data: 
+    - Name: _boxes
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Dash.GraphBox, DashRuntime]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: previewControlsViewMinimized
+      Entry: 5
+      Data: true
+    - Name: viewOffset
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 163.75
+    - Name: 
+      Entry: 4
+      Data: 115.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: graphVariablesMinimized
+      Entry: 5
+      Data: true
+    - Name: globalVariablesMinimized
+      Entry: 5
+      Data: true
+    - Name: previewNode
+      Entry: 6
+      Data: 
+  _boxes: []
+  previewControlsViewMinimized: 1
+  viewOffset: {x: 163.75, y: 115.75}
+  graphVariablesMinimized: 1
+  globalVariablesMinimized: 1
 --- !u!1 &185843340
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,7 +1291,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &533190572
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1426,6 +1599,7 @@ MonoBehaviour:
   autoStartInput: Start
   autoOnEnable: 0
   autoOnEnableInput: Start
+  advancedInspector: 0
   previewing: 0
   graphPath: 
   _propertyNames:
@@ -1828,6 +2002,7 @@ MonoBehaviour:
   autoStartInput: Start
   autoOnEnable: 0
   autoOnEnableInput: Start
+  advancedInspector: 0
   previewing: 0
   graphPath: 
   _propertyNames:
@@ -2589,6 +2764,7 @@ MonoBehaviour:
   autoStartInput: Start
   autoOnEnable: 0
   autoOnEnableInput: Start
+  advancedInspector: 0
   previewing: 0
   graphPath: 
   _propertyNames:
@@ -4522,164 +4698,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c945ee359c1744141bd21d632fad9fc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _assetGraph: {fileID: 11400000, guid: af03b7c9c61649f4dad670d3e2982d52, type: 2}
-  _boundGraphData: 
+  _assetGraph: {fileID: 0}
+  _boundGraphData: 1701180000003c00760065007200730069006f006e003e006b005f005f004200610063006b0069006e0067004600690065006c006400711700002d01080000004f006e004f007500740070007500740001010a0000005f007600610072006900610062006c00650073002f00000000011f00000044006100730068002e0044006100730068005600610072006900610062006c00650073002c0020004400610073006800520075006e00740069006d0065000000000001010a0000005f007600610072006900610062006c00650073002f010000000149000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b0044006100730068002e005600610072006900610062006c0065002c0020004400610073006800520075006e00740069006d0065005d005d002c0020006d00730063006f0072006c0069006200010000000600000000000000000705052d01130000005f0065007800740072006100630074006500640043006c0069007000430061006300680065000101060000005f006e006f006400650073002f020000000149000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b0044006100730068002e004e006f006400650042006100730065002c0020004400610073006800520075006e00740069006d0065005d005d002c0020006d00730063006f0072006c006900620002000000060100000000000000022f03000000011b00000044006100730068002e0049006e007000750074004e006f00640065002c0020004400610073006800520075006e00740069006d006500030000000101060000005f006d006f00640065006c002f04000000012000000044006100730068002e0049006e007000750074004e006f00640065004d006f00640065006c002c0020004400610073006800520075006e00740069006d0065000400000027010200000069006400010600000049006e0070007500740031002d010700000063006f006d006d0065006e00740017010d000000670072006f007500700073004d0069006e0069007a00650064000200000027010900000069006e007000750074004e0061006d006500010500000049006e00700075007400050b01060000005f00670072006100700068000000000017011f0000003c0045007800650063007500740069006f006e0043006f0075006e0074003e006b005f005f004200610063006b0069006e0067004600690065006c006400000000001d01190000003c00430061007400650067006f00720079003e006b005f005f004200610063006b0069006e0067004600690065006c006400060000000000000003010400000072006500630074002f05000000012800000055006e0069007400790045006e00670069006e0065002e0052006500630074002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c00650020008096422000407c43200000de42200000aa420505070501010c0000005f0063006f006e006e0065006300740069006f006e0073002f06000000014f000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b0044006100730068002e004e006f006400650043006f006e006e0065006300740069006f006e002c0020004400610073006800520075006e00740069006d0065005d005d002c0020006d00730063006f0072006c00690062000500000006000000000000000007052d011c0000003c0050006100720065006e007400470072006100700068003e006b005f005f004200610063006b0069006e0067004600690065006c0064002d011b0000003c0043006f006e00740072006f006c006c00650072003e006b005f005f004200610063006b0069006e0067004600690065006c0064000101060000005f0062006f007800650073002f070000000149000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b0044006100730068002e004700720061007000680042006f0078002c0020004400610073006800520075006e00740069006d0065005d005d002c0020006d00730063006f0072006c00690062000600000006000000000000000007052b011c000000700072006500760069006500770043006f006e00740072006f006c00730056006900650077004d0069006e0069006d0069007a00650064000103010a00000076006900650077004f00660066007300650074002f08000000012b00000055006e0069007400790045006e00670069006e0065002e0056006500630074006f00720032002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c0065002000c02343200080e742052b0117000000670072006100700068005600610072006900610062006c00650073004d0069006e0069006d0069007a0065006400012b011800000067006c006f00620061006c005600610072006900610062006c00650073004d0069006e0069006d0069007a0065006400012d010b00000070007200650076006900650077004e006f0064006500
   _selfReferenceIndex: 0
-  _boundGraphReferences: []
+  _boundGraphReferences:
+  - {fileID: 44303687}
   autoStart: 1
   autoStartInput: Start
   autoOnEnable: 0
   autoOnEnableInput: Start
+  advancedInspector: 1
   previewing: 0
   graphPath: 
-  _propertyNames:
-  - d45f9ecd78c56d24f9ddbbf75dbf6c0f
-  - 7bcf6608df933cc43b2efae1c289dc3b
-  - 82ebd2708f72af64792e533496251728
-  - 4bee40ee7d6066a41adad2b0fe44136d
-  - 722d2535c9c8f0f458a049935d10dedb
-  - 6876d64f9e5939d409612cd16e2e6282
-  - 5623234f3744e8849aec44d08fda0d8c
-  - 0d9a9e0f37e84a349a7b6c1f8ac69718
-  - fdb28b5a99722eb408670aeb67675a1a
-  - b9db67b187bc02d40871f3ec61c56b70
-  - 1b0786dff8641fe49a9a4d57f96b3d8e
-  - 31615dc95e8d7b443934fb42640ca19c
-  - 85df99db859e749d59b5b7cfe1fe059a
-  - b1ecfa127009f4934a9d8d992b9a6275
-  - d84c3580bfe9549dbafb9888ca7678b8
-  - 33a51f49945824ccc9db7b9e2ba36d64
-  - 07ba437577dcc4b5fa2982b05e1a2b96
-  - cdf508a79e38c4928b4cec4926b30e00
-  - 4c0fc4b86213746cd808a2f4a7496964
-  - 85df99db859e749d59b5b7cfe1fe059a:581059297
-  - :0
-  - 34f2023d9f8d447338e97f59f2adeef9:-1738210182
-  - 39d9af6d1203f467986bd1c4f7a679e0
-  - 61da88ae9efe945e692ffadd911031fd
-  - 0790ed70d11bc4f0fbfb01e064ab58a7
-  - 2166bcc9db20a4b2080be3b89c2423d6
-  - aaa891b5c6594476cb13096a61e3018c
-  - 40ce524bbdab647d881f092dc67deb68
-  - 0b0803b9d92564689accfadf6ee92f7e
-  - fe7ea8aad0d3a4ed78f9b4e632122db1
-  - e1def21aaeb9e4943bc76b414f1c033d
-  - 866b0302117064ab5985e0d996a53288
-  - ba3a8ac8735a24eeabba3b6c5b1508d9
-  - ddb93071334b0496b99e1178c811b495
-  - cfafd3094b1e54c1ea2e2d29a2a1b8ee
-  - ce4ad2a5451f6477c9d4da660ae5a18a
-  - 3e89337455a6f478493ece3e5cdfd384
-  - 66b284c4cc7f549aca8f9858c8126585
-  - 2db8bac499c1447b4be73218443cba17
-  - fc163edf070224cbc9280e246d3a0102
-  - 1ac05fc8e9e124da382f46283f83ec3b
-  - dc8eed1d56f9946b794654e948a8841f
-  - cb3df948fad284f49aaeb3947d2abafe
-  - fd53c2d05a8bbc74fbb4907fe4411521
-  - 01b61194b7d97bc4395ffc54b0a5e967
-  - 6d479851f8edca54a9394f9adc0a637f
-  - 82c51b77ba4d73f458a58dce937c2369
-  - cb38d9275457dbc4eb137fa90090eb62
-  - c3c478f41248bfc4eb5fd95519670870
-  - f852b7a9d1dddbe4b9fbc952d05ec4ba
-  - a814c6a8d1f03dd4781de09757a5a2c6
-  - a141ba16c2a16484a848756f36877f07
-  - 988ac1a987109144ca71d64e5e98e639
-  - 7606e1cebe42b074192812a77eae24c8
-  - 3d96939a94171f046865f7e088433dc8
-  - c23bf51aca49d954bbfdb3f8ae5b5edc
-  - b60b54ea6a1c13b479fd9df7871dcee0
-  - d23857a7aa926cd4db1a6a89c567b425
-  - fc33b93c9bccf8a4ba7e423fc425cf8d
-  - a2cde87136e2e4e439d7d5a8b23b1547
-  - 34d8f7c267a588c4084e249b2ad811ba
-  - adad01e98c8b6e14d934c9cc6d42c476
-  - c2c4e8145c0a2c84698225415a57dbbf
-  - 90c406fa4aa4e6e4197d79ea1897d87d
-  - 63e7322d787286749bc6d6e1d7453e66
-  - 6b88db9855b10c34baaafdeeaf5468cc
-  - 92a3675a4a65c8748827359a7a496f60
-  - fd9f77ec7d328e647b919b65213b527d
-  - f2b6393ecf19ad845a43a9193c5580a0
-  - 6fa3098c954062c43a5e7865f78d7843
-  - 551aad68dd50a8e448e77973e55f6fa5
-  - e2c07f5baeae90842a361aa96c3ae468
-  - 64ab500386dea79489481b484b3e299a
-  _references:
-  - {fileID: 533190572}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 3936068963946783429, guid: 6bf195359545f314bb8ffbe74dc1f092, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 533190572}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 533190572}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1483110416}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1362579247}
-  - {fileID: 0}
-  - {fileID: 1362579247}
-  - {fileID: 1362579247}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1362579248}
+  _propertyNames: []
+  _references: []
 --- !u!114 &1483110413
 MonoBehaviour:
   m_ObjectHideFlags: 0
