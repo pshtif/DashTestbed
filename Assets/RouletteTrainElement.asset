@@ -1,0 +1,1842 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f992b7b42e86e4193a2e97d9286a3d, type: 3}
+  m_Name: RouletteTrainElement
+  m_EditorClassIdentifier: 
+  _connections:
+  - active: 1
+    inputIndex: 0
+  - active: 1
+    inputIndex: 0
+  - active: 1
+    inputIndex: 0
+  - active: 1
+    inputIndex: 0
+  - active: 1
+    inputIndex: 0
+  - active: 1
+    inputIndex: 0
+  - active: 1
+    inputIndex: 0
+  - active: 1
+    inputIndex: 0
+  - active: 1
+    inputIndex: 0
+  - active: 1
+    inputIndex: 0
+  _serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: <version>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: _variables
+      Entry: 7
+      Data: 0|Dash.DashVariables, DashRuntime
+    - Name: _variables
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Dash.Variable, DashRuntime]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 2|Dash.Variable`1[[UnityEngine.ExposedReference`1[[UnityEngine.RectTransform,
+        UnityEngine.CoreModule]], UnityEngine.CoreModule]], DashRuntime
+    - Name: <Type>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: _name
+      Entry: 1
+      Data: front_info
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.ExposedReference`1[[UnityEngine.RectTransform, UnityEngine.CoreModule]],
+        UnityEngine.CoreModule
+    - Name: exposedName
+      Entry: 7
+      Data: UnityEngine.PropertyName, UnityEngine.CoreModule
+    - Name: id
+      Entry: 3
+      Data: -720165098
+    - Name: conflictIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: defaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _boundType
+      Entry: 3
+      Data: 0
+    - Name: _boundName
+      Entry: 6
+      Data: 
+    - Name: _boundComponentName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Dash.Variable`1[[UnityEngine.ExposedReference`1[[UnityEngine.RectTransform,
+        UnityEngine.CoreModule]], UnityEngine.CoreModule]], DashRuntime
+    - Name: <Type>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: _name
+      Entry: 1
+      Data: train_silhouette
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.ExposedReference`1[[UnityEngine.RectTransform, UnityEngine.CoreModule]],
+        UnityEngine.CoreModule
+    - Name: exposedName
+      Entry: 7
+      Data: UnityEngine.PropertyName, UnityEngine.CoreModule
+    - Name: id
+      Entry: 3
+      Data: -1675885440
+    - Name: conflictIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: defaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _boundType
+      Entry: 3
+      Data: 0
+    - Name: _boundName
+      Entry: 6
+      Data: 
+    - Name: _boundComponentName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Dash.Variable`1[[System.Single, mscorlib]], DashRuntime
+    - Name: <Type>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: _name
+      Entry: 1
+      Data: delay
+    - Name: _value
+      Entry: 4
+      Data: 0
+    - Name: _boundType
+      Entry: 3
+      Data: 0
+    - Name: _boundName
+      Entry: 6
+      Data: 
+    - Name: _boundComponentName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Dash.Variable`1[[UnityEngine.ExposedReference`1[[UnityEngine.RectTransform,
+        UnityEngine.CoreModule]], UnityEngine.CoreModule]], DashRuntime
+    - Name: <Type>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: _name
+      Entry: 1
+      Data: checkmark
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.ExposedReference`1[[UnityEngine.RectTransform, UnityEngine.CoreModule]],
+        UnityEngine.CoreModule
+    - Name: exposedName
+      Entry: 7
+      Data: UnityEngine.PropertyName, UnityEngine.CoreModule
+    - Name: id
+      Entry: 3
+      Data: 0
+    - Name: conflictIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: defaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _boundType
+      Entry: 3
+      Data: 0
+    - Name: _boundName
+      Entry: 6
+      Data: 
+    - Name: _boundComponentName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|Dash.Variable`1[[System.Boolean, mscorlib]], DashRuntime
+    - Name: <Type>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: _name
+      Entry: 1
+      Data: was_checkmark_active
+    - Name: _value
+      Entry: 5
+      Data: false
+    - Name: _boundType
+      Entry: 3
+      Data: 0
+    - Name: _boundName
+      Entry: 6
+      Data: 
+    - Name: _boundComponentName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _extractedClipCache
+      Entry: 6
+      Data: 
+    - Name: _nodes
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[Dash.NodeBase, DashRuntime]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 11
+    - Name: 
+      Entry: 7
+      Data: 8|Dash.OnCustomEventNode, DashRuntime
+    - Name: _model
+      Entry: 7
+      Data: 9|Dash.OnCustomEventNodeModel, DashRuntime
+    - Name: _version
+      Entry: 3
+      Data: 1
+    - Name: id
+      Entry: 1
+      Data: OnCustomEvent1
+    - Name: comment
+      Entry: 6
+      Data: 
+    - Name: groupsMinized
+      Entry: 3
+      Data: 2
+    - Name: eventName
+      Entry: 1
+      Data: Hide
+    - Name: priority
+      Entry: 3
+      Data: 0
+    - Name: useSequencer
+      Entry: 5
+      Data: false
+    - Name: sequencerId
+      Entry: 7
+      Data: 10|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: sequencerPriority
+      Entry: 7
+      Data: 11|Dash.Parameter`1[[System.Int32, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: <ExecutionCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <Category>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 371
+    - Name: 
+      Entry: 4
+      Data: 709
+    - Name: 
+      Entry: 4
+      Data: 108.5
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|Dash.AnimateRotationNode, DashRuntime
+    - Name: _model
+      Entry: 7
+      Data: 13|Dash.AnimateRotationNodeModel, DashRuntime
+    - Name: _version
+      Entry: 3
+      Data: 1
+    - Name: id
+      Entry: 1
+      Data: AnimateRotation1
+    - Name: comment
+      Entry: 6
+      Data: 
+    - Name: groupsMinized
+      Entry: 3
+      Data: 8
+    - Name: retarget
+      Entry: 5
+      Data: false
+    - Name: useReference
+      Entry: 5
+      Data: false
+    - Name: isChild
+      Entry: 5
+      Data: true
+    - Name: target
+      Entry: 7
+      Data: 14|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: targetReference
+      Entry: 7
+      Data: UnityEngine.ExposedReference`1[[UnityEngine.Transform, UnityEngine.CoreModule]],
+        UnityEngine.CoreModule
+    - Name: exposedName
+      Entry: 7
+      Data: UnityEngine.PropertyName, UnityEngine.CoreModule
+    - Name: id
+      Entry: 3
+      Data: 0
+    - Name: conflictIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: defaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: useExpression
+      Entry: 5
+      Data: false
+    - Name: targetExpression
+      Entry: 1
+      Data: 
+    - Name: time
+      Entry: 7
+      Data: 15|Dash.Parameter`1[[System.Single, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: delay
+      Entry: 7
+      Data: 16|Dash.Parameter`1[[System.Single, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: easeType
+      Entry: 7
+      Data: 17|Dash.Parameter`1[[Dash.EaseType, DashTweenRuntime]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: killActive
+      Entry: 7
+      Data: 18|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: killOnNullEncounter
+      Entry: 5
+      Data: false
+    - Name: useFrom
+      Entry: 5
+      Data: false
+    - Name: fromRotation
+      Entry: 7
+      Data: 19|Dash.Parameter`1[[UnityEngine.Vector3, UnityEngine.CoreModule]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isFromRelative
+      Entry: 5
+      Data: false
+    - Name: toRotation
+      Entry: 7
+      Data: 20|Dash.Parameter`1[[UnityEngine.Vector3, UnityEngine.CoreModule]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -180
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isToRelative
+      Entry: 5
+      Data: false
+    - Name: storeToAttribute
+      Entry: 5
+      Data: false
+    - Name: storeAttributeName
+      Entry: 7
+      Data: 21|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 1
+      Data: rotation
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: <ExecutionCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <Category>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 912.5
+    - Name: 
+      Entry: 4
+      Data: 653.5
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _bindFrom
+      Entry: 5
+      Data: false
+    - Name: _bindTo
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 22|Dash.SetActiveNode, DashRuntime
+    - Name: _model
+      Entry: 7
+      Data: 23|Dash.SetActiveNodeModel, DashRuntime
+    - Name: _version
+      Entry: 3
+      Data: 1
+    - Name: id
+      Entry: 1
+      Data: SetActive1
+    - Name: comment
+      Entry: 6
+      Data: 
+    - Name: groupsMinized
+      Entry: 3
+      Data: 4
+    - Name: retarget
+      Entry: 5
+      Data: true
+    - Name: useReference
+      Entry: 5
+      Data: true
+    - Name: isChild
+      Entry: 5
+      Data: true
+    - Name: target
+      Entry: 7
+      Data: 24|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: targetReference
+      Entry: 7
+      Data: UnityEngine.ExposedReference`1[[UnityEngine.Transform, UnityEngine.CoreModule]],
+        UnityEngine.CoreModule
+    - Name: exposedName
+      Entry: 7
+      Data: UnityEngine.PropertyName, UnityEngine.CoreModule
+    - Name: id
+      Entry: 3
+      Data: 1130627345
+    - Name: conflictIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: defaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: useExpression
+      Entry: 5
+      Data: true
+    - Name: targetExpression
+      Entry: 1
+      Data: train_silhouette
+    - Name: active
+      Entry: 7
+      Data: 25|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: <ExecutionCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <Category>k__BackingField
+      Entry: 3
+      Data: 3
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1440
+    - Name: 
+      Entry: 4
+      Data: 766.25
+    - Name: 
+      Entry: 4
+      Data: 160
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|Dash.DelayNode, DashRuntime
+    - Name: _model
+      Entry: 7
+      Data: 27|Dash.DelayNodeModel, DashRuntime
+    - Name: _version
+      Entry: 3
+      Data: 1
+    - Name: id
+      Entry: 1
+      Data: Delay1
+    - Name: comment
+      Entry: 6
+      Data: 
+    - Name: groupsMinized
+      Entry: 3
+      Data: 2
+    - Name: time
+      Entry: 7
+      Data: 28|Dash.Parameter`1[[System.Single, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 4
+      Data: 0.15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: <ExecutionCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <Category>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 904
+    - Name: 
+      Entry: 4
+      Data: 765
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 29|Dash.SetActiveNode, DashRuntime
+    - Name: _model
+      Entry: 7
+      Data: 30|Dash.SetActiveNodeModel, DashRuntime
+    - Name: _version
+      Entry: 3
+      Data: 1
+    - Name: id
+      Entry: 1
+      Data: SetActive2
+    - Name: comment
+      Entry: 6
+      Data: 
+    - Name: groupsMinized
+      Entry: 3
+      Data: 4
+    - Name: retarget
+      Entry: 5
+      Data: true
+    - Name: useReference
+      Entry: 5
+      Data: true
+    - Name: isChild
+      Entry: 5
+      Data: true
+    - Name: target
+      Entry: 7
+      Data: 31|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: targetReference
+      Entry: 7
+      Data: UnityEngine.ExposedReference`1[[UnityEngine.Transform, UnityEngine.CoreModule]],
+        UnityEngine.CoreModule
+    - Name: exposedName
+      Entry: 7
+      Data: UnityEngine.PropertyName, UnityEngine.CoreModule
+    - Name: id
+      Entry: 3
+      Data: 1265288931
+    - Name: conflictIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: defaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: useExpression
+      Entry: 5
+      Data: true
+    - Name: targetExpression
+      Entry: 1
+      Data: front_info
+    - Name: active
+      Entry: 7
+      Data: 32|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: <ExecutionCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <Category>k__BackingField
+      Entry: 3
+      Data: 3
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1184.25
+    - Name: 
+      Entry: 4
+      Data: 888.75
+    - Name: 
+      Entry: 4
+      Data: 160
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|Dash.AnimateRotationNode, DashRuntime
+    - Name: _model
+      Entry: 7
+      Data: 34|Dash.AnimateRotationNodeModel, DashRuntime
+    - Name: _version
+      Entry: 3
+      Data: 1
+    - Name: id
+      Entry: 1
+      Data: AnimateRotation2
+    - Name: comment
+      Entry: 6
+      Data: 
+    - Name: groupsMinized
+      Entry: 3
+      Data: 8
+    - Name: retarget
+      Entry: 5
+      Data: false
+    - Name: useReference
+      Entry: 5
+      Data: false
+    - Name: isChild
+      Entry: 5
+      Data: true
+    - Name: target
+      Entry: 7
+      Data: 35|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: targetReference
+      Entry: 7
+      Data: UnityEngine.ExposedReference`1[[UnityEngine.Transform, UnityEngine.CoreModule]],
+        UnityEngine.CoreModule
+    - Name: exposedName
+      Entry: 7
+      Data: UnityEngine.PropertyName, UnityEngine.CoreModule
+    - Name: id
+      Entry: 3
+      Data: 0
+    - Name: conflictIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: defaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: useExpression
+      Entry: 5
+      Data: false
+    - Name: targetExpression
+      Entry: 1
+      Data: 
+    - Name: time
+      Entry: 7
+      Data: 36|Dash.Parameter`1[[System.Single, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: delay
+      Entry: 7
+      Data: 37|Dash.Parameter`1[[System.Single, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: easeType
+      Entry: 7
+      Data: 38|Dash.Parameter`1[[Dash.EaseType, DashTweenRuntime]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 3
+      Data: 23
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: killActive
+      Entry: 7
+      Data: 39|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: killOnNullEncounter
+      Entry: 5
+      Data: false
+    - Name: useFrom
+      Entry: 5
+      Data: false
+    - Name: fromRotation
+      Entry: 7
+      Data: 40|Dash.Parameter`1[[UnityEngine.Vector3, UnityEngine.CoreModule]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isFromRelative
+      Entry: 5
+      Data: false
+    - Name: toRotation
+      Entry: 7
+      Data: 41|Dash.Parameter`1[[UnityEngine.Vector3, UnityEngine.CoreModule]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isToRelative
+      Entry: 5
+      Data: false
+    - Name: storeToAttribute
+      Entry: 5
+      Data: false
+    - Name: storeAttributeName
+      Entry: 7
+      Data: 42|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 1
+      Data: rotation
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: <ExecutionCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <Category>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1177.25
+    - Name: 
+      Entry: 4
+      Data: 654
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _bindFrom
+      Entry: 5
+      Data: false
+    - Name: _bindTo
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 43|Dash.DelayNode, DashRuntime
+    - Name: _model
+      Entry: 7
+      Data: 44|Dash.DelayNodeModel, DashRuntime
+    - Name: _version
+      Entry: 3
+      Data: 1
+    - Name: id
+      Entry: 1
+      Data: Delay2
+    - Name: comment
+      Entry: 6
+      Data: 
+    - Name: groupsMinized
+      Entry: 3
+      Data: 2
+    - Name: time
+      Entry: 7
+      Data: 45|Dash.Parameter`1[[System.Single, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 4
+      Data: 0.15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: <ExecutionCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <Category>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1191.25
+    - Name: 
+      Entry: 4
+      Data: 765.5
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|Dash.DelayNode, DashRuntime
+    - Name: _model
+      Entry: 7
+      Data: 47|Dash.DelayNodeModel, DashRuntime
+    - Name: _version
+      Entry: 3
+      Data: 1
+    - Name: id
+      Entry: 1
+      Data: Delay3
+    - Name: comment
+      Entry: 6
+      Data: 
+    - Name: groupsMinized
+      Entry: 3
+      Data: 2
+    - Name: time
+      Entry: 7
+      Data: 48|Dash.Parameter`1[[System.Single, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: true
+    - Name: expression
+      Entry: 1
+      Data: delay
+    - Name: _value
+      Entry: 4
+      Data: 0.15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: <ExecutionCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <Category>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 543
+    - Name: 
+      Entry: 4
+      Data: 710
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|Dash.NullNode, DashRuntime
+    - Name: _model
+      Entry: 7
+      Data: 50|Dash.NullNodeModel, DashRuntime
+    - Name: _version
+      Entry: 3
+      Data: 1
+    - Name: id
+      Entry: 1
+      Data: Null1
+    - Name: comment
+      Entry: 6
+      Data: 
+    - Name: groupsMinized
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: <ExecutionCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <Category>k__BackingField
+      Entry: 3
+      Data: 4
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 745.5
+    - Name: 
+      Entry: 4
+      Data: 712.25
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 51|Dash.SetActiveNode, DashRuntime
+    - Name: _model
+      Entry: 7
+      Data: 52|Dash.SetActiveNodeModel, DashRuntime
+    - Name: _version
+      Entry: 3
+      Data: 1
+    - Name: id
+      Entry: 1
+      Data: SetActive3
+    - Name: comment
+      Entry: 6
+      Data: 
+    - Name: groupsMinized
+      Entry: 3
+      Data: 4
+    - Name: retarget
+      Entry: 5
+      Data: true
+    - Name: useReference
+      Entry: 5
+      Data: true
+    - Name: isChild
+      Entry: 5
+      Data: true
+    - Name: target
+      Entry: 7
+      Data: 53|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: targetReference
+      Entry: 7
+      Data: UnityEngine.ExposedReference`1[[UnityEngine.Transform, UnityEngine.CoreModule]],
+        UnityEngine.CoreModule
+    - Name: exposedName
+      Entry: 7
+      Data: UnityEngine.PropertyName, UnityEngine.CoreModule
+    - Name: id
+      Entry: 3
+      Data: 0
+    - Name: conflictIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: defaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: useExpression
+      Entry: 5
+      Data: true
+    - Name: targetExpression
+      Entry: 1
+      Data: checkmark
+    - Name: active
+      Entry: 7
+      Data: 54|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: <ExecutionCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <Category>k__BackingField
+      Entry: 3
+      Data: 3
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1011.75
+    - Name: 
+      Entry: 4
+      Data: 1001.5
+    - Name: 
+      Entry: 4
+      Data: 160
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 55|Dash.SetActiveNode, DashRuntime
+    - Name: _model
+      Entry: 7
+      Data: 56|Dash.SetActiveNodeModel, DashRuntime
+    - Name: _version
+      Entry: 3
+      Data: 1
+    - Name: id
+      Entry: 1
+      Data: SetActive4
+    - Name: comment
+      Entry: 6
+      Data: 
+    - Name: groupsMinized
+      Entry: 3
+      Data: 4
+    - Name: retarget
+      Entry: 5
+      Data: true
+    - Name: useReference
+      Entry: 5
+      Data: true
+    - Name: isChild
+      Entry: 5
+      Data: true
+    - Name: target
+      Entry: 7
+      Data: 57|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: false
+    - Name: expression
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: targetReference
+      Entry: 7
+      Data: UnityEngine.ExposedReference`1[[UnityEngine.Transform, UnityEngine.CoreModule]],
+        UnityEngine.CoreModule
+    - Name: exposedName
+      Entry: 7
+      Data: UnityEngine.PropertyName, UnityEngine.CoreModule
+    - Name: id
+      Entry: 3
+      Data: 1369124468
+    - Name: conflictIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: defaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: useExpression
+      Entry: 5
+      Data: true
+    - Name: targetExpression
+      Entry: 1
+      Data: checkmark
+    - Name: active
+      Entry: 7
+      Data: 58|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
+    - Name: isExpression
+      Entry: 5
+      Data: true
+    - Name: expression
+      Entry: 1
+      Data: was_checkmark_active
+    - Name: _value
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: <ExecutionCount>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <Category>k__BackingField
+      Entry: 3
+      Data: 3
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1435.25
+    - Name: 
+      Entry: 4
+      Data: 885
+    - Name: 
+      Entry: 4
+      Data: 160
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _connections
+      Entry: 7
+      Data: 59|System.Collections.Generic.List`1[[Dash.NodeConnection, DashRuntime]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 60|Dash.NodeConnection, DashRuntime
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: inputIndex
+      Entry: 3
+      Data: 0
+    - Name: <outputIndex>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <inputNode>k__BackingField
+      Entry: 9
+      Data: 29
+    - Name: <outputNode>k__BackingField
+      Entry: 9
+      Data: 26
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 61|Dash.NodeConnection, DashRuntime
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: inputIndex
+      Entry: 3
+      Data: 0
+    - Name: <outputIndex>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <inputNode>k__BackingField
+      Entry: 9
+      Data: 33
+    - Name: <outputNode>k__BackingField
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 62|Dash.NodeConnection, DashRuntime
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: inputIndex
+      Entry: 3
+      Data: 0
+    - Name: <outputIndex>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <inputNode>k__BackingField
+      Entry: 9
+      Data: 43
+    - Name: <outputNode>k__BackingField
+      Entry: 9
+      Data: 26
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 63|Dash.NodeConnection, DashRuntime
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: inputIndex
+      Entry: 3
+      Data: 0
+    - Name: <outputIndex>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <inputNode>k__BackingField
+      Entry: 9
+      Data: 22
+    - Name: <outputNode>k__BackingField
+      Entry: 9
+      Data: 43
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 64|Dash.NodeConnection, DashRuntime
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: inputIndex
+      Entry: 3
+      Data: 0
+    - Name: <outputIndex>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <inputNode>k__BackingField
+      Entry: 9
+      Data: 12
+    - Name: <outputNode>k__BackingField
+      Entry: 9
+      Data: 49
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 65|Dash.NodeConnection, DashRuntime
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: inputIndex
+      Entry: 3
+      Data: 0
+    - Name: <outputIndex>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <inputNode>k__BackingField
+      Entry: 9
+      Data: 26
+    - Name: <outputNode>k__BackingField
+      Entry: 9
+      Data: 49
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 66|Dash.NodeConnection, DashRuntime
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: inputIndex
+      Entry: 3
+      Data: 0
+    - Name: <outputIndex>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <inputNode>k__BackingField
+      Entry: 9
+      Data: 49
+    - Name: <outputNode>k__BackingField
+      Entry: 9
+      Data: 46
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 67|Dash.NodeConnection, DashRuntime
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: inputIndex
+      Entry: 3
+      Data: 0
+    - Name: <outputIndex>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <inputNode>k__BackingField
+      Entry: 9
+      Data: 46
+    - Name: <outputNode>k__BackingField
+      Entry: 9
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 68|Dash.NodeConnection, DashRuntime
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: inputIndex
+      Entry: 3
+      Data: 0
+    - Name: <outputIndex>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <inputNode>k__BackingField
+      Entry: 9
+      Data: 51
+    - Name: <outputNode>k__BackingField
+      Entry: 9
+      Data: 49
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 69|Dash.NodeConnection, DashRuntime
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: inputIndex
+      Entry: 3
+      Data: 0
+    - Name: <outputIndex>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: <inputNode>k__BackingField
+      Entry: 9
+      Data: 55
+    - Name: <outputNode>k__BackingField
+      Entry: 9
+      Data: 43
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _boxes
+      Entry: 7
+      Data: 70|System.Collections.Generic.List`1[[Dash.GraphBox, DashRuntime]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: previewControlsViewMinimized
+      Entry: 5
+      Data: false
+    - Name: viewOffset
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 143.25
+    - Name: 
+      Entry: 4
+      Data: -521.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: graphVariablesMinimized
+      Entry: 5
+      Data: false
+    - Name: globalVariablesMinimized
+      Entry: 5
+      Data: true
+    - Name: previewNode
+      Entry: 9
+      Data: 8
+  _boxes: []
+  previewControlsViewMinimized: 0
+  viewOffset: {x: 143.25, y: -521.5}
+  graphVariablesMinimized: 0
+  globalVariablesMinimized: 1

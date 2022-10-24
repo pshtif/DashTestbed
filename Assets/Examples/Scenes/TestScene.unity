@@ -134,8 +134,9 @@ GameObject:
   - component: {fileID: 47827634}
   - component: {fileID: 47827633}
   - component: {fileID: 47827632}
+  - component: {fileID: 47827637}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: DashCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,27 +154,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c945ee359c1744141bd21d632fad9fc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _assetGraph: {fileID: 0}
-  _boundGraphData: 1701180000003c00760065007200730069006f006e003e006b005f005f004200610063006b0069006e0067004600690065006c006400401f00002d01080000004f006e004f007500740070007500740001010a0000005f007600610072006900610062006c00650073002f00000000011f00000044006100730068002e0044006100730068005600610072006900610062006c00650073002c0020004400610073006800520075006e00740069006d0065000000000001010a0000005f007600610072006900610062006c00650073002f010000000149000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b0044006100730068002e005600610072006900610062006c0065002c0020004400610073006800520075006e00740069006d0065005d005d002c0020006d00730063006f0072006c0069006200010000000600000000000000000705050101130000005f0065007800740072006100630074006500640043006c0069007000430061006300680065002f02000000012400000044006100730068002e0045007800740072006100630074006500640043006c0069007000430061006300680065002c0020004400610073006800520075006e00740069006d006500020000000101060000005f0063006c006900700073002f03000000018d000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e00440069006300740069006f006e00610072007900600032005b005b0055006e0069007400790045006e00670069006e0065002e0041006e0069006d006100740069006f006e0043006c00690070002c00200055006e0069007400790045006e00670069006e0065002e0041006e0069006d006100740069006f006e004d006f00640075006c0065005d002c005b0044006100730068002e0045007800740072006100630074006500640043006c00690070002c0020004400610073006800520075006e00740069006d0065005d005d002c0020006d00730063006f0072006c00690062000300000001010800000063006f006d00700061007200650072002f040000000177000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004f0062006a0065006300740045007100750061006c0069007400790043006f006d0070006100720065007200600031005b005b0055006e0069007400790045006e00670069006e0065002e0041006e0069006d006100740069006f006e0043006c00690070002c00200055006e0069007400790045006e00670069006e0065002e0041006e0069006d006100740069006f006e004d006f00640075006c0065005d005d002c0020006d00730063006f0072006c006900620004000000050600000000000000000705050101060000005f006e006f006400650073002f050000000149000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b0044006100730068002e004e006f006400650042006100730065002c0020004400610073006800520075006e00740069006d0065005d005d002c0020006d00730063006f0072006c006900620005000000060200000000000000022f06000000011b00000044006100730068002e0049006e007000750074004e006f00640065002c0020004400610073006800520075006e00740069006d006500060000000101060000005f006d006f00640065006c002f07000000012000000044006100730068002e0049006e007000750074004e006f00640065004d006f00640065006c002c0020004400610073006800520075006e00740069006d0065000700000027010200000069006400010600000049006e0070007500740031002d010700000063006f006d006d0065006e00740001010d0000006d006900670072006100740069006f006e004c006900730074002f080000000146000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b00530079007300740065006d002e0053007400720069006e0067002c0020006d00730063006f0072006c00690062005d005d002c0020006d00730063006f0072006c006900620008000000060000000000000000070517010d000000670072006f007500700073004d0069006e0069007a00650064000200000027010900000069006e007000750074004e0061006d006500010500000049006e00700075007400050b01060000005f00670072006100700068000000000017011f0000003c0045007800650063007500740069006f006e0043006f0075006e0074003e006b005f005f004200610063006b0069006e0067004600690065006c006400000000001d01190000003c00430061007400650067006f00720079003e006b005f005f004200610063006b0069006e0067004600690065006c006400060000000000000003010400000072006500630074002f09000000012800000055006e0069007400790045006e00670069006e0065002e0052006500630074002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c0065002000004d43200000c043200000de42200000aa420505022f0a000000012800000044006100730068002e0041006e0069006d0061007400650054006f005400720061006e00730066006f0072006d004e006f00640065002c0020004400610073006800520075006e00740069006d006500090000000101060000005f006d006f00640065006c002f0b000000012d00000044006100730068002e0041006e0069006d0061007400650054006f005400720061006e00730066006f0072006d004e006f00640065004d006f00640065006c002c0020004400610073006800520075006e00740069006d0065000a00000027010200000069006400011300000041006e0069006d0061007400650054006f005400720061006e00730066006f0072006d0031002d010700000063006f006d006d0065006e00740001010d0000006d006900670072006100740069006f006e004c0069007300740030080000000b000000060000000000000000070517010d000000670072006f007500700073004d0069006e0069007a0065006400080000002b010800000072006500740061007200670065007400012b010c0000007500730065005200650066006500720065006e0063006500012b0107000000690073004300680069006c006400010101060000007400610072006700650074002f0c000000013800000044006100730068002e0050006100720061006d006500740065007200600031005b005b00530079007300740065006d002e0053007400720069006e0067002c0020006d00730063006f0072006c00690062005d005d002c0020004400610073006800520075006e00740069006d0065000c0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002701060000005f00760061006c007500650001000000000503010f0000007400610072006700650074005200650066006500720065006e00630065002f0d000000016700000055006e0069007400790045006e00670069006e0065002e004500780070006f007300650064005200650066006500720065006e0063006500600031005b005b0055006e0069007400790045006e00670069006e0065002e005400720061006e00730066006f0072006d002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c0065005d005d002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c00650003010b0000006500780070006f007300650064004e0061006d0065002f0e000000013000000055006e0069007400790045006e00670069006e0065002e00500072006f00700065007200740079004e0061006d0065002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c00650017010200000069006400c6284f7317010d00000063006f006e0066006c0069006300740049006e0064006500780000000000052d010c000000640065006600610075006c007400560061006c0075006500052b010d000000750073006500450078007000720065007300730069006f006e0000270110000000740061007200670065007400450078007000720065007300730069006f006e000100000000010104000000740069006d0065002f0f000000013800000044006100730068002e0050006100720061006d006500740065007200600031005b005b00530079007300740065006d002e00530069006e0067006c0065002c0020006d00730063006f0072006c00690062005d005d002c0020004400610073006800520075006e00740069006d0065000d0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e001f01060000005f00760061006c00750065000000803f05010105000000640065006c0061007900300f0000000e0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e001f01060000005f00760061006c00750065000000000005010108000000650061007300650054007900700065002f10000000014000000044006100730068002e0050006100720061006d006500740065007200600031005b005b0044006100730068002e00450061007300650054007900700065002c002000440061007300680054007700650065006e00520075006e00740069006d0065005d005d002c0020004400610073006800520075006e00740069006d0065000f0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e001d01060000005f00760061006c007500650000000000000000000501010a0000006b0069006c006c004100630074006900760065002f11000000013900000044006100730068002e0050006100720061006d006500740065007200600031005b005b00530079007300740065006d002e0042006f006f006c00650061006e002c0020006d00730063006f0072006c00690062005d005d002c0020004400610073006800520075006e00740069006d006500100000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c007500650000052b01130000006b0069006c006c004f006e004e0075006c006c0045006e0063006f0075006e007400650072000003010f0000007400610072006700650074005400720061006e00730066006f0072006d00300d00000003010b0000006500780070006f007300650064004e0061006d006500300e0000001701020000006900640057dabd4e17010d00000063006f006e0066006c0069006300740049006e0064006500780000000000052d010c000000640065006600610075006c007400560061006c0075006500052b010f00000075007300650054006f00450078007000720065007300730069006f006e000027011200000074006100720067006500740054006f00450078007000720065007300730069006f006e00010000000001011000000075007300650052006500630074005400720061006e00730066006f0072006d003011000000110000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c0075006500010501010d00000075007300650054006f0050006f0073006900740069006f006e003011000000120000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c0075006500010501010d00000075007300650054006f0052006f0074006100740069006f006e003011000000130000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c0075006500000501010a00000075007300650054006f005300630061006c0065003011000000140000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c00750065000005050b01060000005f00670072006100700068000000000017011f0000003c0045007800650063007500740069006f006e0043006f0075006e0074003e006b005f005f004200610063006b0069006e0067004600690065006c006400000000001d01190000003c00430061007400650067006f00720079003e006b005f005f004200610063006b0069006e0067004600690065006c0064000200000000000000030104000000720065006300740030090000002000800a44200000e4432000004843200000aa42052b01090000005f00620069006e006400460072006f006d00002b01070000005f00620069006e00640054006f000005070501010c0000005f0063006f006e006e0065006300740069006f006e0073002f12000000014f000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b0044006100730068002e004e006f006400650043006f006e006e0065006300740069006f006e002c0020004400610073006800520075006e00740069006d0065005d005d002c0020006d00730063006f0072006c006900620015000000060100000000000000022f13000000012000000044006100730068002e004e006f006400650043006f006e006e0065006300740069006f006e002c0020004400610073006800520075006e00740069006d006500160000002b01060000006100630074006900760065000117010a00000069006e0070007500740049006e006400650078000000000017011c0000003c006f007500740070007500740049006e006400650078003e006b005f005f004200610063006b0069006e0067004600690065006c0064000000000009011a0000003c0069006e007000750074004e006f00640065003e006b005f005f004200610063006b0069006e0067004600690065006c0064000900000009011b0000003c006f00750074007000750074004e006f00640065003e006b005f005f004200610063006b0069006e0067004600690065006c006400060000000507052d011b0000003c0043006f006e00740072006f006c006c00650072003e006b005f005f004200610063006b0069006e0067004600690065006c0064000101060000005f0062006f007800650073002f140000000149000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b0044006100730068002e004700720061007000680042006f0078002c0020004400610073006800520075006e00740069006d0065005d005d002c0020006d00730063006f0072006c00690062001700000006000000000000000007052b011c000000700072006500760069006500770043006f006e00740072006f006c00730056006900650077004d0069006e0069006d0069007a00650064000003010a00000076006900650077004f00660066007300650074002f15000000012b00000055006e0069007400790045006e00670069006e0065002e0056006500630074006f00720032002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c00650020000000002000000000052b0117000000670072006100700068005600610072006900610062006c00650073004d0069006e0069006d0069007a0065006400012b011800000067006c006f00620061006c005600610072006900610062006c00650073004d0069006e0069006d0069007a00650064000109010b00000070007200650076006900650077004e006f006400650006000000
-  _selfReferenceIndex: 0
-  _boundGraphReferences:
-  - {fileID: 202115193}
-  autoStart: 0
-  autoStartInput: StartInput
+  _assetGraph: {fileID: 11400000, guid: 1ac40385820759b41ba18b957cf68f27, type: 2}
+  _boundGraphData: 
+  _selfReferenceIndex: -1
+  _boundGraphReferences: []
+  autoStart: 1
+  autoStartInput: Input
   autoOnEnable: 0
-  autoOnEnableInput: OnEnableInput
-  useCustomTarget: 1
+  autoOnEnableInput: OnEnable
+  useCustomTarget: 0
   customTarget: {fileID: 0}
   advancedInspector: 0
   previewing: 0
   graphPath: 
-  showGraphVariables: 0
+  showGraphVariables: 1
   _propertyNames:
   - cf0f1e78e2b2b834b94296908f430d21
   - 882bcf20124518b44ba4fb08af9e2cdc
+  - 738332065f6260d4ebaf4aae72b86499
+  - 5889e25ffa2a76a48bc5ee7dcd7aaad7
+  - '#UNKNOWN:-1616740760'
+  - '#UNKNOWN:1447379031'
+  - '#UNKNOWN:808736231'
+  - '#UNKNOWN:1387745113'
+  - 5f21edf28487f9c4aa60f000d53c5664
+  - 1319604ce0e0f454d9bfdc22a4f66ff4
+  - 2cd04a61b68aaa040aa24f4a8256277e
+  - c3c7937647e3e054795f9629b9f4d969
+  - 4b78d7b148b90584586ae70c8335e74d
+  - 0ffb83fcb9c810f4daa186b03ae38e89
+  - 493c2da0eb0652c43a59b6f41f48251f
+  - a6b2a2abfc3cf9744895197035e84cb0
   _references:
-  - {fileID: 847051147}
-  - {fileID: 1670831965}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 47827636}
 --- !u!114 &47827633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,7 +258,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -245,864 +273,28 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 847051147}
-  - {fileID: 1670831965}
+  - {fileID: 514511487}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &202115193
+--- !u!114 &47827637
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 47827631}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5f992b7b42e86e4193a2e97d9286a3d, type: 3}
-  m_Name: Bound
+  m_Script: {fileID: 11500000, guid: 2d5fa9df9d2d0b94096b97e29dc9309c, type: 3}
+  m_Name: 
   m_EditorClassIdentifier: 
-  _connections:
-  - active: 1
-    inputIndex: 0
-  _serializationData:
-    SerializedFormat: 0
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  _boxes: []
-  previewControlsViewMinimized: 0
-  viewOffset: {x: 0, y: 0}
-  graphVariablesMinimized: 1
-  globalVariablesMinimized: 1
---- !u!114 &229103874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5f992b7b42e86e4193a2e97d9286a3d, type: 3}
-  m_Name: Bound
-  m_EditorClassIdentifier: 
-  _connections:
-  - active: 1
-    inputIndex: 0
-  _serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects:
-    - {fileID: 229103874}
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: <version>k__BackingField
-      Entry: 3
-      Data: 8000
-    - Name: OnOutput
-      Entry: 6
-      Data: 
-    - Name: _variables
-      Entry: 7
-      Data: 0|Dash.DashVariables, DashRuntime
-    - Name: _variables
-      Entry: 7
-      Data: 1|System.Collections.Generic.List`1[[Dash.Variable, DashRuntime]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _extractedClipCache
-      Entry: 6
-      Data: 
-    - Name: _nodes
-      Entry: 7
-      Data: 2|System.Collections.Generic.List`1[[Dash.NodeBase, DashRuntime]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 3|Dash.InputNode, DashRuntime
-    - Name: _model
-      Entry: 7
-      Data: 4|Dash.InputNodeModel, DashRuntime
-    - Name: id
-      Entry: 1
-      Data: Input1
-    - Name: comment
-      Entry: 6
-      Data: 
-    - Name: migrationList
-      Entry: 7
-      Data: 5|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: groupsMinized
-      Entry: 3
-      Data: 2
-    - Name: inputName
-      Entry: 1
-      Data: Input
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _graph
-      Entry: 10
-      Data: 0
-    - Name: <ExecutionCount>k__BackingField
-      Entry: 3
-      Data: 0
-    - Name: <Category>k__BackingField
-      Entry: 3
-      Data: 6
-    - Name: rect
-      Entry: 7
-      Data: UnityEngine.Rect, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 501
-    - Name: 
-      Entry: 4
-      Data: 349
-    - Name: 
-      Entry: 4
-      Data: 111
-    - Name: 
-      Entry: 4
-      Data: 85
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 6|Dash.AnimateTransformNode, DashRuntime
-    - Name: _model
-      Entry: 7
-      Data: 7|Dash.AnimateTransformNodeModel, DashRuntime
-    - Name: id
-      Entry: 1
-      Data: AnimateTransform1
-    - Name: comment
-      Entry: 6
-      Data: 
-    - Name: migrationList
-      Entry: 7
-      Data: 8|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: groupsMinized
-      Entry: 3
-      Data: 32
-    - Name: retarget
-      Entry: 5
-      Data: false
-    - Name: useReference
-      Entry: 5
-      Data: false
-    - Name: isChild
-      Entry: 5
-      Data: true
-    - Name: target
-      Entry: 7
-      Data: 9|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 1
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: targetReference
-      Entry: 7
-      Data: UnityEngine.ExposedReference`1[[UnityEngine.Transform, UnityEngine.CoreModule]],
-        UnityEngine.CoreModule
-    - Name: exposedName
-      Entry: 7
-      Data: UnityEngine.PropertyName, UnityEngine.CoreModule
-    - Name: id
-      Entry: 3
-      Data: 0
-    - Name: conflictIndex
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: defaultValue
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: useExpression
-      Entry: 5
-      Data: false
-    - Name: targetExpression
-      Entry: 1
-      Data: 
-    - Name: time
-      Entry: 7
-      Data: 10|Dash.Parameter`1[[System.Single, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: delay
-      Entry: 7
-      Data: 11|Dash.Parameter`1[[System.Single, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: easeType
-      Entry: 7
-      Data: 12|Dash.Parameter`1[[Dash.EaseType, DashTweenRuntime]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: killActive
-      Entry: 7
-      Data: 13|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: killOnNullEncounter
-      Entry: 5
-      Data: false
-    - Name: usePosition
-      Entry: 7
-      Data: 14|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: useFromPosition
-      Entry: 7
-      Data: 15|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: fromPosition
-      Entry: 7
-      Data: 16|Dash.Parameter`1[[UnityEngine.Vector3, UnityEngine.CoreModule]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isFromPositionRelative
-      Entry: 7
-      Data: 17|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: toPosition
-      Entry: 7
-      Data: 18|Dash.Parameter`1[[UnityEngine.Vector3, UnityEngine.CoreModule]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isToPositionRelative
-      Entry: 7
-      Data: 19|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: storePositionToAttribute
-      Entry: 7
-      Data: 20|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: storePositionAttributeName
-      Entry: 7
-      Data: 21|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 1
-      Data: position
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: useRotation
-      Entry: 7
-      Data: 22|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: useFromRotation
-      Entry: 7
-      Data: 23|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: fromRotation
-      Entry: 7
-      Data: 24|Dash.Parameter`1[[UnityEngine.Vector3, UnityEngine.CoreModule]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isFromRotationRelative
-      Entry: 7
-      Data: 25|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: toRotation
-      Entry: 7
-      Data: 26|Dash.Parameter`1[[UnityEngine.Vector3, UnityEngine.CoreModule]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isToRotationRelative
-      Entry: 7
-      Data: 27|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: storeRotationToAttribute
-      Entry: 7
-      Data: 28|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: storeRotationAttributeName
-      Entry: 7
-      Data: 29|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 1
-      Data: rotation
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: useScale
-      Entry: 7
-      Data: 30|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: useFromScale
-      Entry: 7
-      Data: 31|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: fromScale
-      Entry: 7
-      Data: 32|Dash.Parameter`1[[UnityEngine.Vector3, UnityEngine.CoreModule]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isFromScaleRelative
-      Entry: 7
-      Data: 33|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: toScale
-      Entry: 7
-      Data: 34|Dash.Parameter`1[[UnityEngine.Vector3, UnityEngine.CoreModule]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isToScaleRelative
-      Entry: 7
-      Data: 35|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: storeScaleToAttribute
-      Entry: 7
-      Data: 36|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: storeScaleAttributeName
-      Entry: 7
-      Data: 37|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime
-    - Name: isExpression
-      Entry: 5
-      Data: false
-    - Name: expression
-      Entry: 6
-      Data: 
-    - Name: _value
-      Entry: 1
-      Data: scale
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _graph
-      Entry: 10
-      Data: 0
-    - Name: <ExecutionCount>k__BackingField
-      Entry: 3
-      Data: 0
-    - Name: <Category>k__BackingField
-      Entry: 3
-      Data: 2
-    - Name: rect
-      Entry: 7
-      Data: UnityEngine.Rect, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 878
-    - Name: 
-      Entry: 4
-      Data: 318
-    - Name: 
-      Entry: 4
-      Data: 220
-    - Name: 
-      Entry: 4
-      Data: 85
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _bindFrom
-      Entry: 5
-      Data: false
-    - Name: _bindTo
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _connections
-      Entry: 7
-      Data: 38|System.Collections.Generic.List`1[[Dash.NodeConnection, DashRuntime]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 39|Dash.NodeConnection, DashRuntime
-    - Name: active
-      Entry: 5
-      Data: true
-    - Name: inputIndex
-      Entry: 3
-      Data: 0
-    - Name: <outputIndex>k__BackingField
-      Entry: 3
-      Data: 0
-    - Name: <inputNode>k__BackingField
-      Entry: 9
-      Data: 6
-    - Name: <outputNode>k__BackingField
-      Entry: 9
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: <Controller>k__BackingField
-      Entry: 6
-      Data: 
-    - Name: _boxes
-      Entry: 7
-      Data: 40|System.Collections.Generic.List`1[[Dash.GraphBox, DashRuntime]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: previewControlsViewMinimized
-      Entry: 5
-      Data: true
-    - Name: viewOffset
-      Entry: 7
-      Data: UnityEngine.Vector2, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: -50
-    - Name: 
-      Entry: 4
-      Data: 95
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: graphVariablesMinimized
-      Entry: 5
-      Data: true
-    - Name: globalVariablesMinimized
-      Entry: 5
-      Data: true
-    - Name: previewNode
-      Entry: 6
-      Data: 
-  _boxes: []
-  previewControlsViewMinimized: 1
-  viewOffset: {x: -50, y: 95}
-  graphVariablesMinimized: 1
-  globalVariablesMinimized: 1
---- !u!1 &639641245
+--- !u!1 &350909334
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1110,8 +302,51 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 639641247}
-  - component: {fileID: 639641246}
+  - component: {fileID: 350909336}
+  - component: {fileID: 350909335}
+  m_Layer: 0
+  m_Name: TestController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &350909335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350909334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d5fa9df9d2d0b94096b97e29dc9309c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &350909336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350909334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 563.55756, y: 423.32983, z: 352.7085}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &477037672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 477037674}
+  - component: {fileID: 477037673}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1119,23 +354,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &639641246
+--- !u!114 &477037673
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639641245}
+  m_GameObject: {fileID: 477037672}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c945ee359c1744141bd21d632fad9fc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _assetGraph: {fileID: 0}
-  _boundGraphData: 1701180000003c00760065007200730069006f006e003e006b005f005f004200610063006b0069006e0067004600690065006c006400401f00002d01080000004f006e004f007500740070007500740001010a0000005f007600610072006900610062006c00650073002f00000000011f00000044006100730068002e0044006100730068005600610072006900610062006c00650073002c0020004400610073006800520075006e00740069006d0065000000000001010a0000005f007600610072006900610062006c00650073002f010000000149000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b0044006100730068002e005600610072006900610062006c0065002c0020004400610073006800520075006e00740069006d0065005d005d002c0020006d00730063006f0072006c0069006200010000000600000000000000000705052d01130000005f0065007800740072006100630074006500640043006c0069007000430061006300680065000101060000005f006e006f006400650073002f020000000149000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b0044006100730068002e004e006f006400650042006100730065002c0020004400610073006800520075006e00740069006d0065005d005d002c0020006d00730063006f0072006c006900620002000000060200000000000000022f03000000011b00000044006100730068002e0049006e007000750074004e006f00640065002c0020004400610073006800520075006e00740069006d006500030000000101060000005f006d006f00640065006c002f04000000012000000044006100730068002e0049006e007000750074004e006f00640065004d006f00640065006c002c0020004400610073006800520075006e00740069006d0065000400000027010200000069006400010600000049006e0070007500740031002d010700000063006f006d006d0065006e00740001010d0000006d006900670072006100740069006f006e004c006900730074002f050000000146000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b00530079007300740065006d002e0053007400720069006e0067002c0020006d00730063006f0072006c00690062005d005d002c0020006d00730063006f0072006c006900620005000000060000000000000000070517010d000000670072006f007500700073004d0069006e0069007a00650064000200000027010900000069006e007000750074004e0061006d006500010500000049006e00700075007400050b01060000005f00670072006100700068000000000017011f0000003c0045007800650063007500740069006f006e0043006f0075006e0074003e006b005f005f004200610063006b0069006e0067004600690065006c006400000000001d01190000003c00430061007400650067006f00720079003e006b005f005f004200610063006b0069006e0067004600690065006c006400060000000000000003010400000072006500630074002f06000000012800000055006e0069007400790045006e00670069006e0065002e0052006500630074002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c006500200080fa43200080ae43200000de42200000aa420505022f07000000012600000044006100730068002e0041006e0069006d006100740065005400720061006e00730066006f0072006d004e006f00640065002c0020004400610073006800520075006e00740069006d006500060000000101060000005f006d006f00640065006c002f08000000012b00000044006100730068002e0041006e0069006d006100740065005400720061006e00730066006f0072006d004e006f00640065004d006f00640065006c002c0020004400610073006800520075006e00740069006d0065000700000027010200000069006400011100000041006e0069006d006100740065005400720061006e00730066006f0072006d0031002d010700000063006f006d006d0065006e00740001010d0000006d006900670072006100740069006f006e004c00690073007400300500000008000000060000000000000000070517010d000000670072006f007500700073004d0069006e0069007a0065006400200000002b010800000072006500740061007200670065007400002b010c0000007500730065005200650066006500720065006e0063006500002b0107000000690073004300680069006c006400010101060000007400610072006700650074002f09000000013800000044006100730068002e0050006100720061006d006500740065007200600031005b005b00530079007300740065006d002e0053007400720069006e0067002c0020006d00730063006f0072006c00690062005d005d002c0020004400610073006800520075006e00740069006d006500090000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002701060000005f00760061006c007500650001000000000503010f0000007400610072006700650074005200650066006500720065006e00630065002f0a000000016700000055006e0069007400790045006e00670069006e0065002e004500780070006f007300650064005200650066006500720065006e0063006500600031005b005b0055006e0069007400790045006e00670069006e0065002e005400720061006e00730066006f0072006d002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c0065005d005d002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c00650003010b0000006500780070006f007300650064004e0061006d0065002f0b000000013000000055006e0069007400790045006e00670069006e0065002e00500072006f00700065007200740079004e0061006d0065002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c006500170102000000690064000000000017010d00000063006f006e0066006c0069006300740049006e0064006500780000000000052d010c000000640065006600610075006c007400560061006c0075006500052b010d000000750073006500450078007000720065007300730069006f006e0000270110000000740061007200670065007400450078007000720065007300730069006f006e000100000000010104000000740069006d0065002f0c000000013800000044006100730068002e0050006100720061006d006500740065007200600031005b005b00530079007300740065006d002e00530069006e0067006c0065002c0020006d00730063006f0072006c00690062005d005d002c0020004400610073006800520075006e00740069006d0065000a0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e001f01060000005f00760061006c00750065000000803f05010105000000640065006c0061007900300c0000000b0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e001f01060000005f00760061006c00750065000000000005010108000000650061007300650054007900700065002f0d000000014000000044006100730068002e0050006100720061006d006500740065007200600031005b005b0044006100730068002e00450061007300650054007900700065002c002000440061007300680054007700650065006e00520075006e00740069006d0065005d005d002c0020004400610073006800520075006e00740069006d0065000c0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e001d01060000005f00760061006c007500650000000000000000000501010a0000006b0069006c006c004100630074006900760065002f0e000000013900000044006100730068002e0050006100720061006d006500740065007200600031005b005b00530079007300740065006d002e0042006f006f006c00650061006e002c0020006d00730063006f0072006c00690062005d005d002c0020004400610073006800520075006e00740069006d0065000d0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c007500650000052b01130000006b0069006c006c004f006e004e0075006c006c0045006e0063006f0075006e007400650072000001010b00000075007300650050006f0073006900740069006f006e00300e0000000e0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c0075006500000501010f000000750073006500460072006f006d0050006f0073006900740069006f006e00300e0000000f0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c0075006500000501010c000000660072006f006d0050006f0073006900740069006f006e002f0f000000014c00000044006100730068002e0050006100720061006d006500740065007200600031005b005b0055006e0069007400790045006e00670069006e0065002e0056006500630074006f00720033002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c0065005d005d002c0020004400610073006800520075006e00740069006d006500100000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e000301060000005f00760061006c00750065002f10000000012b00000055006e0069007400790045006e00670069006e0065002e0056006500630074006f00720033002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c006500200000000020000000002000000000050501011600000069007300460072006f006d0050006f0073006900740069006f006e00520065006c0061007400690076006500300e000000110000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c0075006500000501010a00000074006f0050006f0073006900740069006f006e00300f000000120000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e000301060000005f00760061006c0075006500301000000020000000002000000000200000000005050101140000006900730054006f0050006f0073006900740069006f006e00520065006c0061007400690076006500300e000000130000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c00750065000005010118000000730074006f007200650050006f0073006900740069006f006e0054006f00410074007400720069006200750074006500300e000000140000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c0075006500000501011a000000730074006f007200650050006f0073006900740069006f006e004100740074007200690062007500740065004e0061006d0065003009000000150000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002701060000005f00760061006c0075006500010800000070006f0073006900740069006f006e000501010b00000075007300650052006f0074006100740069006f006e00300e000000160000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c0075006500000501010f000000750073006500460072006f006d0052006f0074006100740069006f006e00300e000000170000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c0075006500000501010c000000660072006f006d0052006f0074006100740069006f006e00300f000000180000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e000301060000005f00760061006c00750065003010000000200000000020000000002000000000050501011600000069007300460072006f006d0052006f0074006100740069006f006e00520065006c0061007400690076006500300e000000190000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c0075006500000501010a00000074006f0052006f0074006100740069006f006e00300f0000001a0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e000301060000005f00760061006c0075006500301000000020000000002000000000200000000005050101140000006900730054006f0052006f0074006100740069006f006e00520065006c0061007400690076006500300e0000001b0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c00750065000005010118000000730074006f007200650052006f0074006100740069006f006e0054006f00410074007400720069006200750074006500300e0000001c0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c0075006500000501011a000000730074006f007200650052006f0074006100740069006f006e004100740074007200690062007500740065004e0061006d00650030090000001d0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002701060000005f00760061006c0075006500010800000072006f0074006100740069006f006e00050101080000007500730065005300630061006c006500300e0000001e0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c0075006500000501010c000000750073006500460072006f006d005300630061006c006500300e0000001f0000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c00750065000005010109000000660072006f006d005300630061006c006500300f000000200000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e000301060000005f00760061006c00750065003010000000200000803f200000803f200000803f050501011300000069007300460072006f006d005300630061006c006500520065006c0061007400690076006500300e000000210000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c0075006500000501010700000074006f005300630061006c006500300f000000220000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e000301060000005f00760061006c00750065003010000000200000803f200000803f200000803f05050101110000006900730054006f005300630061006c006500520065006c0061007400690076006500300e000000230000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c00750065000005010115000000730074006f00720065005300630061006c00650054006f00410074007400720069006200750074006500300e000000240000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002b01060000005f00760061006c00750065000005010117000000730074006f00720065005300630061006c0065004100740074007200690062007500740065004e0061006d0065003009000000250000002b010c00000069007300450078007000720065007300730069006f006e00002d010a000000650078007000720065007300730069006f006e002701060000005f00760061006c007500650001050000007300630061006c00650005050b01060000005f00670072006100700068000000000017011f0000003c0045007800650063007500740069006f006e0043006f0075006e0074003e006b005f005f004200610063006b0069006e0067004600690065006c006400000000001d01190000003c00430061007400650067006f00720079003e006b005f005f004200610063006b0069006e0067004600690065006c0064000200000000000000030104000000720065006300740030060000002000805b442000009f432000005c43200000aa42052b01090000005f00620069006e006400460072006f006d00002b01070000005f00620069006e00640054006f000005070501010c0000005f0063006f006e006e0065006300740069006f006e0073002f11000000014f000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b0044006100730068002e004e006f006400650043006f006e006e0065006300740069006f006e002c0020004400610073006800520075006e00740069006d0065005d005d002c0020006d00730063006f0072006c006900620026000000060100000000000000022f12000000012000000044006100730068002e004e006f006400650043006f006e006e0065006300740069006f006e002c0020004400610073006800520075006e00740069006d006500270000002b01060000006100630074006900760065000117010a00000069006e0070007500740049006e006400650078000000000017011c0000003c006f007500740070007500740049006e006400650078003e006b005f005f004200610063006b0069006e0067004600690065006c0064000000000009011a0000003c0069006e007000750074004e006f00640065003e006b005f005f004200610063006b0069006e0067004600690065006c0064000600000009011b0000003c006f00750074007000750074004e006f00640065003e006b005f005f004200610063006b0069006e0067004600690065006c006400030000000507052d011b0000003c0043006f006e00740072006f006c006c00650072003e006b005f005f004200610063006b0069006e0067004600690065006c0064000101060000005f0062006f007800650073002f130000000149000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e004c00690073007400600031005b005b0044006100730068002e004700720061007000680042006f0078002c0020004400610073006800520075006e00740069006d0065005d005d002c0020006d00730063006f0072006c00690062002800000006000000000000000007052b011c000000700072006500760069006500770043006f006e00740072006f006c00730056006900650077004d0069006e0069006d0069007a00650064000103010a00000076006900650077004f00660066007300650074002f14000000012b00000055006e0069007400790045006e00670069006e0065002e0056006500630074006f00720032002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c00650020000048c2200000be42052b0117000000670072006100700068005600610072006900610062006c00650073004d0069006e0069006d0069007a0065006400012b011800000067006c006f00620061006c005600610072006900610062006c00650073004d0069006e0069006d0069007a0065006400012d010b00000070007200650076006900650077004e006f0064006500
-  _selfReferenceIndex: 0
-  _boundGraphReferences:
-  - {fileID: 229103874}
+  _assetGraph: {fileID: 11400000, guid: 1ac40385820759b41ba18b957cf68f27, type: 2}
+  _boundGraphData: 
+  _selfReferenceIndex: -1
+  _boundGraphReferences: []
   autoStart: 0
   autoStartInput: StartInput
   autoOnEnable: 0
@@ -1145,25 +379,26 @@ MonoBehaviour:
   advancedInspector: 0
   previewing: 0
   graphPath: 
-  showGraphVariables: 0
-  _propertyNames: []
-  _references: []
---- !u!4 &639641247
+  showGraphVariables: 1
+  _propertyNames:
+  - a6b2a2abfc3cf9744895197035e84cb0
+  _references:
+  - {fileID: 514511487}
+--- !u!4 &477037674
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639641245}
+  m_GameObject: {fileID: 477037672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 515.4596, y: 632.07776, z: -456.43262}
+  m_LocalPosition: {x: 563.55756, y: 423.32983, z: 352.7085}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1945853946}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &847051146
+--- !u!1 &514511486
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1171,23 +406,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 847051147}
-  - component: {fileID: 847051149}
-  - component: {fileID: 847051148}
+  - component: {fileID: 514511487}
+  - component: {fileID: 514511489}
+  - component: {fileID: 514511488}
   m_Layer: 5
-  m_Name: Bonus
+  m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &847051147
+--- !u!224 &514511487
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 847051146}
+  m_GameObject: {fileID: 514511486}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1198,15 +433,15 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 395, y: 86}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &847051148
+--- !u!114 &514511488
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 847051146}
+  m_GameObject: {fileID: 514511486}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -1219,7 +454,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8916da3d21383486fa98e0a7b3000658, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1229,13 +464,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &847051149
+--- !u!222 &514511489
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 847051146}
+  m_GameObject: {fileID: 514511486}
   m_CullTransparentMesh: 0
 --- !u!1 &1028556153
 GameObject:
@@ -1478,107 +713,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1670831964
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1670831965}
-  - component: {fileID: 1670831967}
-  - component: {fileID: 1670831966}
-  m_Layer: 5
-  m_Name: Nice
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1670831965
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670831964}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 47827636}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -507}
-  m_SizeDelta: {x: 149, y: 52}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1670831966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670831964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 62e8653778e13431a8c384de9044c20b, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1670831967
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670831964}
-  m_CullTransparentMesh: 0
---- !u!1 &1945853945
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1945853946}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1945853946
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1945853945}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 639641247}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

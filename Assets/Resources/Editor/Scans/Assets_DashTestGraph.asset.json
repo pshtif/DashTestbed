@@ -1,0 +1,2465 @@
+"<version>k__BackingField": 12000,
+"_variables": {
+    "$id": 0,
+    "$type": "0|Dash.DashVariables, DashRuntime",
+    "_variables": null
+},
+"_extractedClipCache": null,
+"_nodes": {
+    "$id": 1,
+    "$type": "1|System.Collections.Generic.List`1[[Dash.NodeBase, DashRuntime]], mscorlib",
+    "$rlength": 40,
+    "$rcontent": [
+        {
+            "$id": 2,
+            "$type": "2|Dash.InputNode, DashRuntime",
+            "_model": {
+                "$id": 3,
+                "$type": "3|Dash.InputNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "Input1",
+                "comment": null,
+                "groupsMinized": 2,
+                "inputName": "Input"
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 6,
+            "rect": {
+                "$type": "4|UnityEngine.Rect, UnityEngine.CoreModule",
+                152,
+                111,
+                111,
+                85
+            }
+        },
+        {
+            "$id": 4,
+            "$type": "5|Dash.OutputNode, DashRuntime",
+            "_model": {
+                "$id": 5,
+                "$type": "6|Dash.OutputNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "Output1",
+                "comment": null,
+                "groupsMinized": 2,
+                "outputName": "Output"
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 6,
+            "rect": {
+                "$type": 4,
+                140,
+                226,
+                135,
+                85
+            }
+        },
+        {
+            "$id": 6,
+            "$type": "7|Dash.AnimateAnchoredPositionNode, DashRuntime",
+            "_model": {
+                "$id": 7,
+                "$type": "8|Dash.AnimateAnchoredPositionNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "AnimateAnchoredPosition1",
+                "comment": null,
+                "groupsMinized": 8,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 8,
+                    "$type": "9|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime",
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": "10|UnityEngine.ExposedReference`1[[UnityEngine.Transform, UnityEngine.CoreModule]], UnityEngine.CoreModule",
+                    "exposedName": {
+                        "$type": "11|UnityEngine.PropertyName, UnityEngine.CoreModule",
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "time": {
+                    "$id": 9,
+                    "$type": "12|Dash.Parameter`1[[System.Single, mscorlib]], DashRuntime",
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 1
+                },
+                "delay": {
+                    "$id": 10,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "easeType": {
+                    "$id": 11,
+                    "$type": "13|Dash.Parameter`1[[Dash.EaseType, DashTweenRuntime]], DashRuntime",
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "killActive": {
+                    "$id": 12,
+                    "$type": "14|Dash.Parameter`1[[System.Boolean, mscorlib]], DashRuntime",
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "killOnNullEncounter": false,
+                "useFrom": false,
+                "fromPosition": {
+                    "$id": 13,
+                    "$type": "15|Dash.Parameter`1[[UnityEngine.Vector2, UnityEngine.CoreModule]], DashRuntime",
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": "16|UnityEngine.Vector2, UnityEngine.CoreModule",
+                        0,
+                        0
+                    }
+                },
+                "isFromRelative": false,
+                "toPosition": {
+                    "$id": 14,
+                    "$type": 15,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 16,
+                        0,
+                        0
+                    }
+                },
+                "isToRelative": false,
+                "storeToAttribute": false,
+                "storeAttributeName": {
+                    "$id": 15,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": "position"
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 2,
+            "rect": {
+                "$type": 4,
+                403,
+                110,
+                220,
+                85
+            },
+            "_bindFrom": false,
+            "_bindTo": false
+        },
+        {
+            "$id": 16,
+            "$type": "17|Dash.AnimateColorNode, DashRuntime",
+            "_model": {
+                "$id": 17,
+                "$type": "18|Dash.AnimateColorNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "AnimateColor1",
+                "comment": null,
+                "groupsMinized": 8,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 18,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "time": {
+                    "$id": 19,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 1
+                },
+                "delay": {
+                    "$id": 20,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "easeType": {
+                    "$id": 21,
+                    "$type": 13,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "killActive": {
+                    "$id": 22,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "killOnNullEncounter": false,
+                "targetType": 0,
+                "useFrom": false,
+                "fromAlpha": {
+                    "$id": 23,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "isFromRelative": true,
+                "toAlpha": {
+                    "$id": 24,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 1
+                },
+                "isToRelative": true,
+                "fromColor": {
+                    "$id": 25,
+                    "$type": "19|Dash.Parameter`1[[UnityEngine.Color, UnityEngine.CoreModule]], DashRuntime",
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": "20|UnityEngine.Color, UnityEngine.CoreModule",
+                        1,
+                        1,
+                        1,
+                        1
+                    }
+                },
+                "toColor": {
+                    "$id": 26,
+                    "$type": 19,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 20,
+                        1,
+                        1,
+                        1,
+                        1
+                    }
+                },
+                "storeToAttribute": false,
+                "storeAttributeName": {
+                    "$id": 27,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": "color"
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 2,
+            "rect": {
+                "$type": 4,
+                439,
+                213,
+                160,
+                85
+            },
+            "_bindFrom": false,
+            "_bindTo": false
+        },
+        {
+            "$id": 28,
+            "$type": "21|Dash.AnimatePositionNode, DashRuntime",
+            "_model": {
+                "$id": 29,
+                "$type": "22|Dash.AnimatePositionNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "AnimatePosition1",
+                "comment": null,
+                "groupsMinized": 8,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 30,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "time": {
+                    "$id": 31,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 1
+                },
+                "delay": {
+                    "$id": 32,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "easeType": {
+                    "$id": 33,
+                    "$type": 13,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "killActive": {
+                    "$id": 34,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "killOnNullEncounter": false,
+                "useFrom": false,
+                "fromPosition": {
+                    "$id": 35,
+                    "$type": "23|Dash.Parameter`1[[UnityEngine.Vector3, UnityEngine.CoreModule]], DashRuntime",
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": "24|UnityEngine.Vector3, UnityEngine.CoreModule",
+                        0,
+                        0,
+                        0
+                    }
+                },
+                "isFromRelative": false,
+                "toPosition": {
+                    "$id": 36,
+                    "$type": 23,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 24,
+                        0,
+                        0,
+                        0
+                    }
+                },
+                "isToRelative": false,
+                "storeToAttribute": false,
+                "storeAttributeName": {
+                    "$id": 37,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": "position"
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 2,
+            "rect": {
+                "$type": 4,
+                408,
+                321,
+                220,
+                85
+            },
+            "_bindFrom": false,
+            "_bindTo": false
+        },
+        {
+            "$id": 38,
+            "$type": "25|Dash.AnimateRotationNode, DashRuntime",
+            "_model": {
+                "$id": 39,
+                "$type": "26|Dash.AnimateRotationNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "AnimateRotation1",
+                "comment": null,
+                "groupsMinized": 8,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 40,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "time": {
+                    "$id": 41,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 1
+                },
+                "delay": {
+                    "$id": 42,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "easeType": {
+                    "$id": 43,
+                    "$type": 13,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "killActive": {
+                    "$id": 44,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "killOnNullEncounter": false,
+                "useFrom": false,
+                "fromRotation": {
+                    "$id": 45,
+                    "$type": 23,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 24,
+                        0,
+                        0,
+                        0
+                    }
+                },
+                "isFromRelative": false,
+                "toRotation": {
+                    "$id": 46,
+                    "$type": 23,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 24,
+                        0,
+                        0,
+                        0
+                    }
+                },
+                "isToRelative": false,
+                "storeToAttribute": false,
+                "storeAttributeName": {
+                    "$id": 47,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": "rotation"
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 2,
+            "rect": {
+                "$type": 4,
+                421,
+                430,
+                200,
+                85
+            },
+            "_bindFrom": false,
+            "_bindTo": false
+        },
+        {
+            "$id": 48,
+            "$type": "27|Dash.AnimateScaleNode, DashRuntime",
+            "_model": {
+                "$id": 49,
+                "$type": "28|Dash.AnimateScaleNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "AnimateScale1",
+                "comment": null,
+                "groupsMinized": 8,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 50,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "time": {
+                    "$id": 51,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 1
+                },
+                "delay": {
+                    "$id": 52,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "easeType": {
+                    "$id": 53,
+                    "$type": 13,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "killActive": {
+                    "$id": 54,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "killOnNullEncounter": false,
+                "useFrom": false,
+                "fromScale": {
+                    "$id": 55,
+                    "$type": 23,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 24,
+                        1,
+                        1,
+                        1
+                    }
+                },
+                "isFromRelative": false,
+                "toScale": {
+                    "$id": 56,
+                    "$type": 23,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 24,
+                        1,
+                        1,
+                        1
+                    }
+                },
+                "isToRelative": false,
+                "storeToAttribute": false,
+                "storeAttributeName": {
+                    "$id": 57,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": "scale"
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 2,
+            "rect": {
+                "$type": 4,
+                446,
+                540,
+                160,
+                85
+            },
+            "_bindFrom": false,
+            "_bindTo": false
+        },
+        {
+            "$id": 58,
+            "$type": "29|Dash.AnimateSizeDeltaNode, DashRuntime",
+            "_model": {
+                "$id": 59,
+                "$type": "30|Dash.AnimateSizeDeltaNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "AnimateSizeDelta1",
+                "comment": null,
+                "groupsMinized": 8,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 60,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "time": {
+                    "$id": 61,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 1
+                },
+                "delay": {
+                    "$id": 62,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "easeType": {
+                    "$id": 63,
+                    "$type": 13,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "killActive": {
+                    "$id": 64,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "killOnNullEncounter": false,
+                "useFrom": false,
+                "fromSizeDelta": {
+                    "$id": 65,
+                    "$type": 15,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 16,
+                        0,
+                        0
+                    }
+                },
+                "isFromRelative": false,
+                "toSizeDelta": {
+                    "$id": 66,
+                    "$type": 15,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 16,
+                        0,
+                        0
+                    }
+                },
+                "isToRelative": false,
+                "storeToAttribute": false,
+                "storeAttributeName": {
+                    "$id": 67,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": "sizedelta"
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 2,
+            "rect": {
+                "$type": 4,
+                438,
+                652,
+                180,
+                85
+            },
+            "_bindFrom": false,
+            "_bindTo": false
+        },
+        {
+            "$id": 68,
+            "$type": "31|Dash.AnimateToStateNode, DashRuntime",
+            "_model": {
+                "$id": 69,
+                "$type": "32|Dash.AnimateToStateNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "AnimateToState1",
+                "comment": null,
+                "groupsMinized": 8,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 70,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "time": {
+                    "$id": 71,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 1
+                },
+                "delay": {
+                    "$id": 72,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "easeType": {
+                    "$id": 73,
+                    "$type": 13,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "killActive": {
+                    "$id": 74,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "killOnNullEncounter": false,
+                "useFrom": false,
+                "fromState": {
+                    "$id": 75,
+                    "$type": "33|Dash.Parameter`1[[Dash.TransformStorage, DashRuntime]], DashRuntime",
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": null
+                },
+                "toState": {
+                    "$id": 76,
+                    "$type": 33,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": null
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 2,
+            "rect": {
+                "$type": 4,
+                420,
+                769,
+                220,
+                85
+            },
+            "_bindFrom": false,
+            "_bindTo": false
+        },
+        {
+            "$id": 77,
+            "$type": "34|Dash.AnimateToTransformNode, DashRuntime",
+            "_model": {
+                "$id": 78,
+                "$type": "35|Dash.AnimateToTransformNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "AnimateToTransform1",
+                "comment": null,
+                "groupsMinized": 8,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 79,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "time": {
+                    "$id": 80,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 1
+                },
+                "delay": {
+                    "$id": 81,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "easeType": {
+                    "$id": 82,
+                    "$type": 13,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "killActive": {
+                    "$id": 83,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "killOnNullEncounter": false,
+                "targetTransform": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useToExpression": false,
+                "targetToExpression": "",
+                "useRectTransform": {
+                    "$id": 84,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "useToPosition": {
+                    "$id": 85,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "useToRotation": {
+                    "$id": 86,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "useToScale": {
+                    "$id": 87,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 2,
+            "rect": {
+                "$type": 4,
+                433,
+                893,
+                200,
+                85
+            },
+            "_bindFrom": false,
+            "_bindTo": false
+        },
+        {
+            "$id": 88,
+            "$type": "36|Dash.AnimateTransformNode, DashRuntime",
+            "_model": {
+                "$id": 89,
+                "$type": "37|Dash.AnimateTransformNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "AnimateTransform1",
+                "comment": null,
+                "groupsMinized": 32,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 90,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "time": {
+                    "$id": 91,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 1
+                },
+                "delay": {
+                    "$id": 92,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "easeType": {
+                    "$id": 93,
+                    "$type": 13,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "killActive": {
+                    "$id": 94,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "killOnNullEncounter": false,
+                "usePosition": {
+                    "$id": 95,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "useFromPosition": {
+                    "$id": 96,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "fromPosition": {
+                    "$id": 97,
+                    "$type": 23,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 24,
+                        0,
+                        0,
+                        0
+                    }
+                },
+                "isFromPositionRelative": {
+                    "$id": 98,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "toPosition": {
+                    "$id": 99,
+                    "$type": 23,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 24,
+                        0,
+                        0,
+                        0
+                    }
+                },
+                "isToPositionRelative": {
+                    "$id": 100,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "storePositionToAttribute": {
+                    "$id": 101,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "storePositionAttributeName": {
+                    "$id": 102,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": "position"
+                },
+                "useRotation": {
+                    "$id": 103,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "useFromRotation": {
+                    "$id": 104,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "fromRotation": {
+                    "$id": 105,
+                    "$type": 23,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 24,
+                        0,
+                        0,
+                        0
+                    }
+                },
+                "isFromRotationRelative": {
+                    "$id": 106,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "toRotation": {
+                    "$id": 107,
+                    "$type": 23,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 24,
+                        0,
+                        0,
+                        0
+                    }
+                },
+                "isToRotationRelative": {
+                    "$id": 108,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "storeRotationToAttribute": {
+                    "$id": 109,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "storeRotationAttributeName": {
+                    "$id": 110,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": "rotation"
+                },
+                "useScale": {
+                    "$id": 111,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "useFromScale": {
+                    "$id": 112,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "fromScale": {
+                    "$id": 113,
+                    "$type": 23,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 24,
+                        1,
+                        1,
+                        1
+                    }
+                },
+                "isFromScaleRelative": {
+                    "$id": 114,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "toScale": {
+                    "$id": 115,
+                    "$type": 23,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 24,
+                        1,
+                        1,
+                        1
+                    }
+                },
+                "isToScaleRelative": {
+                    "$id": 116,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "storeScaleToAttribute": {
+                    "$id": 117,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "storeScaleAttributeName": {
+                    "$id": 118,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": "scale"
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 2,
+            "rect": {
+                "$type": 4,
+                425,
+                1021,
+                220,
+                85
+            },
+            "_bindFrom": false,
+            "_bindTo": false
+        },
+        {
+            "$id": 119,
+            "$type": "38|Dash.AnimateWithClipNode, DashRuntime",
+            "_model": {
+                "$id": 120,
+                "$type": "39|Dash.AnimateWithClipNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "AnimateWithClip1",
+                "comment": null,
+                "groupsMinized": 8,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 121,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "time": {
+                    "$id": 122,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 1
+                },
+                "delay": {
+                    "$id": 123,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "easeType": {
+                    "$id": 124,
+                    "$type": 13,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "killActive": {
+                    "$id": 125,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "killOnNullEncounter": false,
+                "useAnimationTime": true,
+                "isReverse": false,
+                "isRelative": true,
+                "useDashAnimation": false,
+                "source": null,
+                "clip": null
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 2,
+            "rect": {
+                "$type": 4,
+                459,
+                1145,
+                160,
+                85
+            },
+            "_bindFrom": false,
+            "_bindTo": false,
+            "_startsCaches": null
+        },
+        {
+            "$id": 126,
+            "$type": "40|Dash.AnimateWithPresetNode, DashRuntime",
+            "_model": {
+                "$id": 127,
+                "$type": "41|Dash.AnimateWithPresetNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "AnimateWithPreset1",
+                "comment": null,
+                "groupsMinized": 4,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 128,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "preset": null,
+                "_presetGroupMinimzed": false
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 2,
+            "rect": {
+                "$type": 4,
+                441,
+                1257,
+                200,
+                85
+            }
+        },
+        {
+            "$id": 129,
+            "$type": "42|Dash.StopAnimationsNode, DashRuntime",
+            "_model": {
+                "$id": 130,
+                "$type": "43|Dash.StopAnimationsNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "StopAnimations1",
+                "comment": null,
+                "groupsMinized": 4,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 131,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "allAnimations": false
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 2,
+            "rect": {
+                "$type": 4,
+                438,
+                1373,
+                200,
+                85
+            }
+        },
+        {
+            "$id": 132,
+            "$type": "44|Dash.DestroyNode, DashRuntime",
+            "_model": {
+                "$id": 133,
+                "$type": "45|Dash.DestroyNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "Destroy1",
+                "comment": null,
+                "groupsMinized": 4,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 134,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "usePooling": false,
+                "immediate": false,
+                "poolId": {
+                    "$id": 135,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": "pool"
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 0,
+            "rect": {
+                "$type": 4,
+                765,
+                114,
+                160,
+                85
+            }
+        },
+        {
+            "$id": 136,
+            "$type": "46|Dash.SoundNode, DashRuntime",
+            "_model": {
+                "$id": 137,
+                "$type": "47|Dash.SoundNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "Sound1",
+                "comment": null,
+                "groupsMinized": 2,
+                "audioClip": null,
+                "audioVolume": {
+                    "$id": 138,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 1
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 0,
+            "rect": {
+                "$type": 4,
+                769,
+                216,
+                150,
+                85
+            },
+            "_audioSource": null
+        },
+        {
+            "$id": 139,
+            "$type": "48|Dash.SpawnImageNode, DashRuntime",
+            "_model": {
+                "$id": 140,
+                "$type": "49|Dash.SpawnImageNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "SpawnImage1",
+                "comment": null,
+                "groupsMinized": 2,
+                "spawnedName": "image",
+                "sprite": {
+                    "$id": 141,
+                    "$type": "50|Dash.Parameter`1[[UnityEngine.Sprite, UnityEngine.CoreModule]], DashRuntime",
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": null
+                },
+                "position": {
+                    "$id": 142,
+                    "$type": 15,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 16,
+                        0,
+                        0
+                    }
+                },
+                "setNativeSize": {
+                    "$id": 143,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "isMaskable": {
+                    "$id": 144,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": true
+                },
+                "isRaycastTarget": {
+                    "$id": 145,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": true
+                },
+                "setTargetAsParent": true,
+                "retargetToSpawned": false,
+                "createSpawnedAttribute": false,
+                "spawnedAttributeName": "image"
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 0,
+            "rect": {
+                "$type": 4,
+                770,
+                322,
+                150,
+                85
+            }
+        },
+        {
+            "$id": 146,
+            "$type": "51|Dash.SpawnUIPrefabNode, DashRuntime",
+            "_model": {
+                "$id": 147,
+                "$type": "52|Dash.SpawnUIPrefabNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "SpawnUIPrefab1",
+                "comment": null,
+                "groupsMinized": 4,
+                "prefab": null,
+                "position": {
+                    "$id": 148,
+                    "$type": 15,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": {
+                        "$type": 16,
+                        0,
+                        0
+                    }
+                },
+                "setTargetAsParent": true,
+                "retargetToSpawned": false,
+                "createSpawnedAttribute": false,
+                "spawnedAttributeName": "image",
+                "usePooling": false,
+                "poolId": {
+                    "$id": 149,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "createPoolIdAttribute": true,
+                "poolIdAttributeName": "pool"
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 0,
+            "rect": {
+                "$type": 4,
+                772,
+                433,
+                150,
+                85
+            },
+            "_prefabPool": null
+        },
+        {
+            "$id": 150,
+            "$type": "53|Dash.EndEventNode, DashRuntime",
+            "_model": {
+                "$id": 151,
+                "$type": "54|Dash.EndEventNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "EndEvent1",
+                "comment": null,
+                "groupsMinized": 2,
+                "eventName": {
+                    "$id": 152,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "sequencerId": {
+                    "$id": 153,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 1,
+            "rect": {
+                "$type": 4,
+                1062,
+                117,
+                170,
+                85
+            }
+        },
+        {
+            "$id": 154,
+            "$type": "55|Dash.OnButtonClickNode, DashRuntime",
+            "_model": {
+                "$id": 155,
+                "$type": "56|Dash.OnButtonClickNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "OnButtonClick1",
+                "comment": null,
+                "groupsMinized": 2,
+                "useReference": false,
+                "isChild": false,
+                "useFind": false,
+                "findAll": false,
+                "button": null,
+                "buttonReference": {
+                    "$type": "57|UnityEngine.ExposedReference`1[[UnityEngine.UI.Button, UnityEngine.UI]], UnityEngine.CoreModule",
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "retargetToButton": true
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 1,
+            "rect": {
+                "$type": 4,
+                1075,
+                219,
+                150,
+                85
+            }
+        },
+        {
+            "$id": 156,
+            "$type": "58|Dash.OnCustomEventNode, DashRuntime",
+            "_model": {
+                "$id": 157,
+                "$type": "59|Dash.OnCustomEventNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "OnCustomEvent1",
+                "comment": null,
+                "groupsMinized": 2,
+                "eventName": "CustomEvent",
+                "priority": 0,
+                "useSequencer": false,
+                "sequencerId": {
+                    "$id": 158,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "sequencerPriority": {
+                    "$id": 159,
+                    "$type": "60|Dash.Parameter`1[[System.Int32, mscorlib]], DashRuntime",
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 1,
+            "rect": {
+                "$type": 4,
+                1067,
+                328,
+                170,
+                85
+            }
+        },
+        {
+            "$id": 160,
+            "$type": "61|Dash.OnMouseClickNode, DashRuntime",
+            "_model": {
+                "$id": 161,
+                "$type": "62|Dash.OnMouseClickNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "OnMouseClick1",
+                "comment": null,
+                "groupsMinized": 1
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 1,
+            "rect": {
+                "$type": 4,
+                1079,
+                435,
+                150,
+                85
+            }
+        },
+        {
+            "$id": 162,
+            "$type": "63|Dash.SendCustomEventNode, DashRuntime",
+            "_model": {
+                "$id": 163,
+                "$type": "64|Dash.SendCustomEventNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "SendCustomEvent1",
+                "comment": null,
+                "groupsMinized": 2,
+                "eventName": {
+                    "$id": 164,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "global": {
+                    "$id": 165,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "sendData": {
+                    "$id": 166,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": true
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 1,
+            "rect": {
+                "$type": 4,
+                1068,
+                549,
+                170,
+                85
+            }
+        },
+        {
+            "$id": 167,
+            "$type": "65|Dash.BranchNode, DashRuntime",
+            "_model": {
+                "$id": 168,
+                "$type": "66|Dash.BranchNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "Branch1",
+                "comment": null,
+                "groupsMinized": 2,
+                "expression": {
+                    "$id": 169,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 4,
+            "rect": {
+                "$type": 4,
+                1394,
+                120,
+                150,
+                85
+            }
+        },
+        {
+            "$id": 170,
+            "$type": "67|Dash.ConnectorNode, DashRuntime",
+            "_model": {
+                "$id": 171,
+                "$type": "68|Dash.NullNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "Connector1",
+                "comment": null,
+                "groupsMinized": 1
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 6,
+            "rect": {
+                "$type": 4,
+                186,
+                342,
+                45,
+                25
+            }
+        },
+        {
+            "$id": 172,
+            "$type": "69|Dash.DebugNode, DashRuntime",
+            "_model": {
+                "$id": 173,
+                "$type": "70|Dash.DebugNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "Debug1",
+                "comment": null,
+                "groupsMinized": 2,
+                "debugFlowData": false,
+                "<test2>k__BackingField": 0,
+                "debug": {
+                    "$id": 174,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": null
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 4,
+            "rect": {
+                "$type": 4,
+                1396,
+                224,
+                150,
+                85
+            }
+        },
+        {
+            "$id": 175,
+            "$type": "71|Dash.DelayNode, DashRuntime",
+            "_model": {
+                "$id": 176,
+                "$type": "72|Dash.DelayNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "Delay1",
+                "comment": null,
+                "groupsMinized": 2,
+                "time": {
+                    "$id": 177,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 4,
+            "rect": {
+                "$type": 4,
+                1400,
+                329,
+                150,
+                85
+            }
+        },
+        {
+            "$id": 178,
+            "$type": "73|Dash.ForLoopNode, DashRuntime",
+            "_model": {
+                "$id": 179,
+                "$type": "74|Dash.ForLoopNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "ForLoop1",
+                "comment": null,
+                "groupsMinized": 2,
+                "OnIterationDelay": {
+                    "$id": 180,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "OnFinishedDelay": 0,
+                "firstIndex": {
+                    "$id": 181,
+                    "$type": 60,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "lastIndex": {
+                    "$id": 182,
+                    "$type": 60,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "addIndexAttribute": false,
+                "indexAttribute": "index"
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 4,
+            "rect": {
+                "$type": 4,
+                1403,
+                439,
+                150,
+                85
+            }
+        },
+        {
+            "$id": 183,
+            "$type": "75|Dash.NullNode, DashRuntime",
+            "_model": {
+                "$id": 184,
+                "$type": 68,
+                "_version": 1,
+                "id": "Null1",
+                "comment": null,
+                "groupsMinized": 1
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 4,
+            "rect": {
+                "$type": 4,
+                1436,
+                549,
+                85,
+                85
+            }
+        },
+        {
+            "$id": 185,
+            "$type": "76|Dash.SequenceNode, DashRuntime",
+            "_model": {
+                "$id": 186,
+                "$type": "77|Dash.SequenceNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "Sequence1",
+                "comment": null,
+                "groupsMinized": 1
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 4,
+            "rect": {
+                "$type": 4,
+                1402,
+                670,
+                150,
+                85
+            }
+        },
+        {
+            "$id": 187,
+            "$type": "78|Dash.IncrementTextNode, DashRuntime",
+            "_model": {
+                "$id": 188,
+                "$type": "79|Dash.IncrementTextNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "IncrementText1",
+                "comment": null,
+                "groupsMinized": 4,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 189,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "useDotFormating": true,
+                "increment": 1,
+                "incrementP": {
+                    "$id": 190,
+                    "$type": 60,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 3,
+            "rect": {
+                "$type": 4,
+                1722,
+                120,
+                160,
+                85
+            }
+        },
+        {
+            "$id": 191,
+            "$type": "80|Dash.RetargetAdvancedNode, DashRuntime",
+            "_model": {
+                "$id": 192,
+                "$type": "81|Dash.RetargetAdvancedNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "RetargetAdvanced1",
+                "comment": null,
+                "groupsMinized": 2,
+                "isChild": false,
+                "findAll": false,
+                "target": null,
+                "delay": {
+                    "$id": 193,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "inReverse": false
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 3,
+            "rect": {
+                "$type": 4,
+                1725,
+                227,
+                160,
+                85
+            }
+        },
+        {
+            "$id": 194,
+            "$type": "82|Dash.RetargetNode, DashRuntime",
+            "_model": {
+                "$id": 195,
+                "$type": "83|Dash.RetargetNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "Retarget1",
+                "comment": null,
+                "groupsMinized": 2,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 196,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": ""
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 3,
+            "rect": {
+                "$type": 4,
+                1720,
+                332,
+                180,
+                85
+            }
+        },
+        {
+            "$id": 197,
+            "$type": "84|Dash.RetargetToChildrenNode, DashRuntime",
+            "_model": {
+                "$id": 198,
+                "$type": "85|Dash.RetargetToChildrenNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "RetargetToChildren1",
+                "comment": null,
+                "groupsMinized": 4,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 199,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "onChildDelay": {
+                    "$id": 200,
+                    "$type": 12,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": 0
+                },
+                "onFinishDelay": 0,
+                "inReverse": false,
+                "targetInactive": {
+                    "$id": 201,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": true
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 3,
+            "rect": {
+                "$type": 4,
+                1714,
+                447,
+                200,
+                110
+            }
+        },
+        {
+            "$id": 202,
+            "$type": "86|Dash.SetActiveNode, DashRuntime",
+            "_model": {
+                "$id": 203,
+                "$type": "87|Dash.SetActiveNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "SetActive1",
+                "comment": null,
+                "groupsMinized": 4,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 204,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "active": {
+                    "$id": 205,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": true
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 3,
+            "rect": {
+                "$type": 4,
+                1732,
+                585,
+                160,
+                85
+            }
+        },
+        {
+            "$id": 206,
+            "$type": "88|Dash.SetAttributeNode, DashRuntime",
+            "_model": {
+                "$id": 207,
+                "$type": "89|Dash.SetAttributeNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "SetAttribute1",
+                "comment": null,
+                "groupsMinized": 2,
+                "attributeName": {
+                    "$id": 208,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": "attribute"
+                },
+                "expression": null,
+                "specifyType": false,
+                "attributeType": {
+                    "$id": 209,
+                    "$type": "90|System.RuntimeType, mscorlib",
+                    "System.Int32, mscorlib"
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 3,
+            "rect": {
+                "$type": 4,
+                1738,
+                702,
+                150,
+                85
+            }
+        },
+        {
+            "$id": 210,
+            "$type": "91|Dash.SetImageNode, DashRuntime",
+            "_model": {
+                "$id": 211,
+                "$type": "92|Dash.SetImageNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "SetImage1",
+                "comment": null,
+                "groupsMinized": 4,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 212,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "setSprite": false,
+                "sprite": {
+                    "$id": 213,
+                    "$type": 50,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": null
+                },
+                "setNativeSize": {
+                    "$id": 214,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "setIsMaskable": false,
+                "isMaskable": {
+                    "$id": 215,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": true
+                },
+                "setIsRaycastTarget": false,
+                "isRaycastTarget": {
+                    "$id": 216,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": true
+                },
+                "storeSpriteToAttribute": {
+                    "$id": 217,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                },
+                "storeSpriteAttributeName": {
+                    "$id": 218,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": "sprite"
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 3,
+            "rect": {
+                "$type": 4,
+                1739,
+                822,
+                160,
+                85
+            }
+        },
+        {
+            "$id": 219,
+            "$type": "93|Dash.SetMaskableNode, DashRuntime",
+            "_model": {
+                "$id": 220,
+                "$type": "94|Dash.SetMaskableNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "SetMaskable1",
+                "comment": null,
+                "groupsMinized": 4,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 221,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "maskable": {
+                    "$id": 222,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": true
+                },
+                "wholeHierarchy": {
+                    "$id": 223,
+                    "$type": 14,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": false
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 3,
+            "rect": {
+                "$type": 4,
+                1740,
+                940,
+                160,
+                85
+            }
+        },
+        {
+            "$id": 224,
+            "$type": "95|Dash.SetTextNode, DashRuntime",
+            "_model": {
+                "$id": 225,
+                "$type": "96|Dash.SetTextNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "SetText1",
+                "comment": null,
+                "groupsMinized": 4,
+                "retarget": false,
+                "useReference": false,
+                "isChild": true,
+                "target": {
+                    "$id": 226,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                },
+                "targetReference": {
+                    "$type": 10,
+                    "exposedName": {
+                        "$type": 11,
+                        "id": 0,
+                        "conflictIndex": 0
+                    },
+                    "defaultValue": null
+                },
+                "useExpression": false,
+                "targetExpression": "",
+                "text": {
+                    "$id": 227,
+                    "$type": 9,
+                    "isExpression": false,
+                    "expression": null,
+                    "_value": ""
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 3,
+            "rect": {
+                "$type": 4,
+                1742,
+                1063,
+                160,
+                85
+            }
+        },
+        {
+            "$id": 228,
+            "$type": "97|Dash.SetVariableNode, DashRuntime",
+            "_model": {
+                "$id": 229,
+                "$type": "98|Dash.SetVariableNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "SetVariable1",
+                "comment": null,
+                "groupsMinized": 2,
+                "variableName": null,
+                "variableType": $iref:209,
+                "expression": null,
+                "enableCreate": false,
+                "isGlobal": false
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 3,
+            "rect": {
+                "$type": 4,
+                1747,
+                1187,
+                150,
+                85
+            }
+        }
+    ]
+},
+"_connections": {
+    "$id": 230,
+    "$type": "99|System.Collections.Generic.List`1[[Dash.NodeConnection, DashRuntime]], mscorlib",
+    "$rlength": 0,
+    "$rcontent": [
+    ]
+},
+"_boxes": {
+    "$id": 231,
+    "$type": "100|System.Collections.Generic.List`1[[Dash.GraphBox, DashRuntime]], mscorlib",
+    "$rlength": 0,
+    "$rcontent": [
+    ]
+},
+"previewControlsViewMinimized": true,
+"viewOffset": {
+    "$type": 16,
+    256.25,
+    -96
+},
+"graphVariablesMinimized": true,
+"globalVariablesMinimized": true,
+"previewNode": null

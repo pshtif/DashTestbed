@@ -3,11 +3,13 @@
  */
 
 using Dash;
-using NCalc;
+using Dash.NCalc;
+using Machina.Attributes;
 using UnityEngine;
 
 namespace Examples.Scripts
 {
+    [ClassAttributes.ExpressionFunctionsAttribute]
     public class CustomFunctions
     {
         private static bool Test(FunctionArgs p_args)

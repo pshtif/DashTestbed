@@ -13,31 +13,38 @@ MonoBehaviour:
   m_Name: DashEditorConfig
   m_EditorClassIdentifier: 
   theme: {fileID: 11400000, guid: 09998f0ada6991d4abc19f5944035710, type: 2}
-  lastUsedVersion: 0
-  _editingGraph: {fileID: 0}
+  lastUsedVersion: 12000
+  _editingRootGraph: {fileID: 11400000, guid: 1ac40385820759b41ba18b957cf68f27, type: 2}
+  _editingGraph: {fileID: 11400000, guid: 1ac40385820759b41ba18b957cf68f27, type: 2}
   _editingController: {fileID: 0}
   editingGraphPath: 
   deleteNull: 0
-  zoom: 1
+  zoom: 1.25
   maxLog: 100
   showNodeIds: 0
   showNodeAsynchronity: 1
   showExperimental: 0
+  showObsolete: 0
   showNodeSearch: 0
   enableSoundInPreview: 0
+  enableAnimateNodeInterface: 0
+  lastChecksumObject: {fileID: 0}
   editorPosition:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
+    x: 414
+    y: 73
+    width: 1612
+    height: 908
   AOTAssemblyPath: Assets/Plugins
   AOTAssemblyName: DashAOTAssembly
+  settingsShowInspectorLogo: 1
   _serializationData:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 11400000, guid: 09998f0ada6991d4abc19f5944035710, type: 2}
+    - {fileID: 11400000, guid: 1ac40385820759b41ba18b957cf68f27, type: 2}
+    - {fileID: 0}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -48,19 +55,22 @@ MonoBehaviour:
       Data: 0
     - Name: lastUsedVersion
       Entry: 3
-      Data: 0
+      Data: 12000
     - Name: <enteringPlayModeGraph>k__BackingField
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 1
     - Name: _enteringPlayModeController
       Entry: 3
-      Data: 0
+      Data: 17034
+    - Name: _editingRootGraph
+      Entry: 10
+      Data: 1
     - Name: _editingGraph
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 1
     - Name: _editingController
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: editingGraphPath
       Entry: 1
       Data: 
@@ -69,7 +79,7 @@ MonoBehaviour:
       Data: false
     - Name: zoom
       Entry: 4
-      Data: 1
+      Data: 1.25
     - Name: maxLog
       Entry: 3
       Data: 100
@@ -82,27 +92,36 @@ MonoBehaviour:
     - Name: showExperimental
       Entry: 5
       Data: false
+    - Name: showObsolete
+      Entry: 5
+      Data: false
     - Name: showNodeSearch
       Entry: 5
       Data: false
     - Name: enableSoundInPreview
       Entry: 5
       Data: false
+    - Name: enableAnimateNodeInterface
+      Entry: 5
+      Data: false
+    - Name: lastChecksumObject
+      Entry: 6
+      Data: 
     - Name: editorPosition
       Entry: 7
       Data: UnityEngine.Rect, UnityEngine.CoreModule
     - Name: 
       Entry: 4
-      Data: 0
+      Data: 414
     - Name: 
       Entry: 4
-      Data: 0
+      Data: 73
     - Name: 
       Entry: 4
-      Data: 0
+      Data: 1612
     - Name: 
       Entry: 4
-      Data: 0
+      Data: 908
     - Name: 
       Entry: 8
       Data: 
@@ -125,5 +144,17 @@ MonoBehaviour:
       Entry: 6
       Data: 
     - Name: explicitAOTTypes
-      Entry: 6
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.Type, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
       Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: settingsShowInspectorLogo
+      Entry: 5
+      Data: true

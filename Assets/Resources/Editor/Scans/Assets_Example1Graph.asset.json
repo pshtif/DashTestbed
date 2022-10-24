@@ -1,0 +1,74 @@
+"<version>k__BackingField": 11000,
+"_variables": {
+    "$id": 0,
+    "$type": "0|Dash.DashVariables, DashRuntime",
+    "_variables": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Dash.Variable, DashRuntime]], mscorlib",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    }
+},
+"_extractedClipCache": null,
+"_nodes": {
+    "$id": 2,
+    "$type": "2|System.Collections.Generic.List`1[[Dash.NodeBase, DashRuntime]], mscorlib",
+    "$rlength": 1,
+    "$rcontent": [
+        {
+            "$id": 3,
+            "$type": "3|Dash.DebugNode, DashRuntime",
+            "_model": {
+                "$id": 4,
+                "$type": "4|Dash.DebugNodeModel, DashRuntime",
+                "_version": 1,
+                "id": "Debug1",
+                "comment": null,
+                "groupsMinized": 2,
+                "debugFlowData": false,
+                "<test2>k__BackingField": 0,
+                "debug": {
+                    "$id": 5,
+                    "$type": "5|Dash.Parameter`1[[System.String, mscorlib]], DashRuntime",
+                    "isExpression": true,
+                    "expression": "newString",
+                    "_value": null
+                }
+            },
+            "_graph": $eref:0,
+            "<ExecutionCount>k__BackingField": 0,
+            "<Category>k__BackingField": 4,
+            "rect": {
+                "$type": "6|UnityEngine.Rect, UnityEngine.CoreModule",
+                1123,
+                462,
+                150,
+                85
+            }
+        }
+    ]
+},
+"_connections": {
+    "$id": 6,
+    "$type": "7|System.Collections.Generic.List`1[[Dash.NodeConnection, DashRuntime]], mscorlib",
+    "$rlength": 0,
+    "$rcontent": [
+    ]
+},
+"_boxes": {
+    "$id": 7,
+    "$type": "8|System.Collections.Generic.List`1[[Dash.GraphBox, DashRuntime]], mscorlib",
+    "$rlength": 0,
+    "$rcontent": [
+    ]
+},
+"previewControlsViewMinimized": true,
+"viewOffset": {
+    "$type": "9|UnityEngine.Vector2, UnityEngine.CoreModule",
+    -497.25,
+    -29.75
+},
+"graphVariablesMinimized": false,
+"globalVariablesMinimized": true,
+"previewNode": null

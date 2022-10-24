@@ -1,41 +1,18 @@
-﻿using System.Collections.Generic;
-using Dash;
-using PixelFederation.Common.Attributes;
+﻿using Dash;
+using Dash.Attributes;
 using UnityEngine;
 
 public class TestController : MonoBehaviour
 {
-    public int test;
-    
-    [Button()]
-    public void ShowScreen1()
-    {
-        DashCore.Instance.SendEvent("Hide", null);
-        DashCore.Instance.SendEvent("Show", new NodeFlowData(new Dictionary<string, object>(){{"screen","Screen1"}}));
-    }
+    public Transform test;
 
-    [Button]
-    public void ShowScreen2()
-    {
-        DashCore.Instance.SendEvent("Hide", null);
-        DashCore.Instance.SendEvent("Show", new NodeFlowData(new Dictionary<string, object>(){{"screen","Screen2"}}));
-    }
+    public bool relative = false;
     
-    [Button]
-    public void HideScreen()
+    void Start()
     {
-        DashCore.Instance.SendEvent("Hide", null);
-    }
-    
-    [Button]
-    public void ShowPopup1()
-    {
-        DashCore.Instance.SendEvent("Popup", new NodeFlowData(new Dictionary<string, object>(){{"popup","Popup1"}}));
-    }
-    
-    [Button]
-    public void ShowPopup2()
-    {
-        DashCore.Instance.SendEvent("Popup", new NodeFlowData(new Dictionary<string, object>(){{"popup","Popup2"}}));
+        DashTween.DelayedCall(2, () =>
+        {
+            test.DashMove(new Vector3(5, 5, 5), .5f).SetRelative(relative).SetEase(EaseType.BACK_OUT);
+        });
     }
 }
