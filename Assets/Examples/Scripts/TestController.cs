@@ -1,18 +1,16 @@
 ﻿using Dash;
-using Dash.Attributes;
 using UnityEngine;
+using UnityEngine.Profiling;
 
 public class TestController : MonoBehaviour
 {
-    public Transform test;
 
-    public bool relative = false;
+    public DashController controller;
+
+    public DashGraph graph;
     
-    void Start()
+    public void Test()
     {
-        DashTween.DelayedCall(2, () =>
-        {
-            test.DashMove(new Vector3(5, 5, 5), .5f).SetRelative(relative).SetEase(EaseType.BACK_OUT);
-        });
+        controller?.ChangeGraph(graph);
     }
 }

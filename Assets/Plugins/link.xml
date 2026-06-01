@@ -1,4 +1,5 @@
 <linker>                    
                          <assembly fullname="DashAOTAssembly" preserve="all"/>
-                         <assembly fullname="DashRuntime" preserve="all"/>
+                         <assembly fullname="Dash" preserve="all"/>
+                         <assembly fullname="OdinSerializer" preserve="all"/>
                       </linker>

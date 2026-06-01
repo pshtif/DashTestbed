@@ -3,20 +3,18 @@
  */
 
 using Dash;
+using Dash.Attributes;
 using Dash.NCalc;
-using Machina.Attributes;
-using UnityEngine;
 
 namespace Examples.Scripts
 {
-    [ClassAttributes.ExpressionFunctionsAttribute]
     public class CustomFunctions
     {
         private static bool Test(FunctionArgs p_args)
         {
             if (p_args.Parameters.Length != 0)
             {
-                ExpressionFunctions.errorMessage = "Invalid parameters in Test function.";
+                //ExpressionFunctions.errorMessage = "Invalid parameters in Test function.";
                 return false;
             }
 

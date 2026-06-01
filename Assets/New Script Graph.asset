@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: New Script Graph
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"DashGraph","summary":"Dash
+      Graph Test","pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{"Event
+      Name":{"$content":"VisualEvent","$type":"System.String"}},"position":{"x":-57.0,"y":-127.0},"guid":"404fcefa-5317-4b7d-ae3e-a269bd61743f","$version":"A","$type":"SendDashEvent","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-261.0,"y":-122.0},"guid":"54d4ae11-1437-405a-b3e2-40b8c37e70ce","$version":"A","$type":"Unity.VisualScripting.Start","$id":"11"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"inputTrigger","guid":"e9fa53a7-af8d-47fc-9539-dcce40b552a3","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []

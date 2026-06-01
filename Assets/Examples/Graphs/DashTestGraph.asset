@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f992b7b42e86e4193a2e97d9286a3d, type: 3}
+  m_Name: DashTestGraph
+  m_EditorClassIdentifier: 
+  _connections: []
+  _serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: <version>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: _variables
+      Entry: 7
+      Data: 0|Dash.DashVariables, Dash
+    - Name: _variables
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Dash.Variable, Dash]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _extractedClipCache
+      Entry: 7
+      Data: 2|Dash.ExtractedClipCache, Dash
+    - Name: _clips
+      Entry: 7
+      Data: 3|System.Collections.Generic.Dictionary`2[[UnityEngine.AnimationClip,
+        UnityEngine.AnimationModule],[Dash.ExtractedClip, Dash]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 4|System.Collections.Generic.ObjectEqualityComparer`1[[UnityEngine.AnimationClip,
+        UnityEngine.AnimationModule]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _nodes
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[Dash.NodeBase, Dash]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 6|Dash.InputNode, Dash
+    - Name: _model
+      Entry: 7
+      Data: 7|Dash.InputNodeModel, Dash
+    - Name: _version
+      Entry: 3
+      Data: 1
+    - Name: id
+      Entry: 1
+      Data: Input1
+    - Name: comment
+      Entry: 6
+      Data: 
+    - Name: groupsMinized
+      Entry: 3
+      Data: -1
+    - Name: inputName
+      Entry: 1
+      Data: Input
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2257.25
+    - Name: 
+      Entry: 4
+      Data: 1436.75
+    - Name: 
+      Entry: 4
+      Data: 111
+    - Name: 
+      Entry: 4
+      Data: 85
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _connections
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[Dash.NodeConnection, Dash]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _downstreamNodes
+      Entry: 7
+      Data: 9|System.Collections.Generic.HashSet`1[[Dash.NodeBase, Dash]], System.Core
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _boxes
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[Dash.GraphBox, Dash]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 11|Dash.GraphBox, Dash
+    - Name: comment
+      Entry: 1
+      Data: Comment
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: moveNodes
+      Entry: 5
+      Data: true
+    - Name: rect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 997.25
+    - Name: 
+      Entry: 4
+      Data: -276.25
+    - Name: 
+      Entry: 4
+      Data: 298
+    - Name: 
+      Entry: 4
+      Data: 257
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: previewControlsViewMinimized
+      Entry: 5
+      Data: true
+    - Name: viewOffset
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -1840.25
+    - Name: 
+      Entry: 4
+      Data: -1098.75
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: zoom
+      Entry: 4
+      Data: 1
+    - Name: graphVariablesMinimized
+      Entry: 5
+      Data: false
+    - Name: globalVariablesMinimized
+      Entry: 5
+      Data: true
+    - Name: previewNode
+      Entry: 6
+      Data: 
+  _boxes:
+  - comment: Comment
+    color: {r: 1, g: 1, b: 1, a: 1}
+    moveNodes: 1
+    rect:
+      serializedVersion: 2
+      x: 997.25
+      y: -276.25
+      width: 298
+      height: 257
+  previewControlsViewMinimized: 1
+  viewOffset: {x: -1840.25, y: -1098.75}
+  zoom: 1
+  graphVariablesMinimized: 0
+  globalVariablesMinimized: 1
